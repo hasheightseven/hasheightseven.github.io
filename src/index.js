@@ -8,10 +8,10 @@ window.CSS.registerProperty({
 
 document.body.innerHTML = `<div id="hashtag-87"></div>`;
 
-CSS.registerProperty({
-  name: "--writing-suggestions",
-  syntax: "writingSuggestions",
-});
+// CSS.registerProperty({
+//   name: "--writing-suggestions",
+//   syntax: "writingSuggestions",
+// });
 
 const h87 = document.getElementById("hashtag-87");
 h87.style.backgroundColor = "#002611";
