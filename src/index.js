@@ -43,8 +43,8 @@ h87div1.appendChild(h87login);
 const canvas = document.createElement("canvas");
 h87.appendChild(canvas);
 const ctx = canvas.getContext("2d");
-canvas.setAttribute("width", screen.availWidth);
-canvas.setAttribute("height", screen.availHeight);
+canvas.setAttribute("width", "8em");
+canvas.setAttribute("height", "8em");
 // Circle properties
 let x = canvas.width / 2;
 let y = canvas.height / 2;
