@@ -15,7 +15,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
+
   align-items: center;
   justify-content: center
 }
@@ -45,6 +45,7 @@ h87h1.addEventListener("click", function () {
 const h87div1 = document.createElement("div");
 h87div1.style.width = "100%";
 h87div1.style.height = "100%";
+h87div1.style.margin = "8em auto";
 h87div1.style.display = "flex";
 h87div1.style.flexDirection = "column";
 
