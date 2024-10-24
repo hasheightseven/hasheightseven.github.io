@@ -22,6 +22,5 @@ const h87div1 = document.createElement("div");
 h87.addEventListener("load", function (event) {
   event.preventDefault();
   // the whole html goes here
-  h87.appendChild(h87h1);
-  h87.appendChild(h87div1);
+  h87.appendChild(h87h1 + h87div1);
 });
