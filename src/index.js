@@ -56,6 +56,29 @@ h87login.addEventListener("mouseover", function () {
   h87login.style.boxShadow = "0 0 0.11em 0 #959200";
 });
 
+const h87signup = document.createElement("button");
+h87signup.setAttribute("type", "button");
+h87signup.textContent = "sign up";
+h87signup.style.fontFamily = "brittany";
+h87signup.style.letterSpacing = "0.11em";
+h87signup.style.color = "#959200";
+h87signup.style.padding = "0 1.1em 0 2.6em";
+h87signup.style.fontSize = "2.6em";
+h87signup.style.border = "none";
+h87signup.style.borderRadius = "0 1.1em 1.1em 0";
+h87signup.style.boxShadow = "inset 0 0 0.87em #959200";
+h87signup.style.margin = 0;
+h87signup.style.backgroundColor = "transparent";
+h87signup.addEventListener("click", function () {
+  window.location.href = "/login";
+});
+h87signup.addEventListener("mouseover", function () {
+  h87signup.style.cursor = "pointer";
+  h87signup.style.textShadow = "0 0 0.11em #002611";
+  h87signup.style.boxShadow = "0 0 0.11em 0 #959200";
+});
+
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
 h87div1.appendChild(h87login);
+h87div1.appendChild(h87signup);
