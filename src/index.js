@@ -41,8 +41,8 @@ h87login.style.color = "#959200";
 h87login.style.padding = "0 1.1em 0 2.6em";
 h87login.style.fontSize = "2.6em";
 h87login.style.border = "none";
-h87login.style.borderRadius = "0 2.6em 2.6em 0";
-h87login.style.boxShadow = "inset 0 0 0.75em #959200";
+h87login.style.borderRadius = "0 1.1em 1.1em 0";
+h87login.style.boxShadow = "inset 0 0 0.87em #959200";
 h87login.style.margin = 0;
 h87login.style.backgroundColor = "transparent";
 h87login.addEventListener("click", function () {
