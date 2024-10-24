@@ -113,7 +113,11 @@ h87signup.addEventListener("mouseout", function () {
   h87signup.style.boxShadow = "inset 0 0 0.87em 0 #959200";
 });
 
+const h87cert = document.createElement("div");
+h87cert.textContent = `${h87.textContent} &middot 2024`;
+
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
 h87div1.appendChild(h87login);
 h87div1.appendChild(h87signup);
+h87.appendChild(h87cert);
