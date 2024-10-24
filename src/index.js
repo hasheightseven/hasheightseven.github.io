@@ -64,7 +64,7 @@ h87login.addEventListener("mouseover", function () {
 });
 h87login.addEventListener("mouseout", function () {
   h87login.style.textShadow = "0 0 0.87em #959200";
-  h87login.style.boxShadow = "0 0 0.87em 0 #959200";
+  h87login.style.boxShadow = "inset 0 0 0.87em 0 #959200";
 });
 
 const h87signup = document.createElement("button");
@@ -96,7 +96,7 @@ h87signup.addEventListener("mouseover", function () {
 });
 h87signup.addEventListener("mouseout", function () {
   h87signup.style.textShadow = "0 0 0.87em #959200";
-  h87signup.style.boxShadow = "0 0 0.87em 0 #959200";
+  h87signup.style.boxShadow = "inset 0 0 0.87em 0 #959200";
 });
 
 h87.appendChild(h87h1);
