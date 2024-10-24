@@ -13,7 +13,7 @@ html, body {
   background-color: radial-gradient(69deg, #002611, #959200)};
 `;
 const h87 = document.body;
-h87.style.backgroundColor = "#002611";
+// h87.style.backgroundColor = "#002611";
 h87.appendChild(mediascreenstyle);
 
 const h87h1 = document.createElement("div");
