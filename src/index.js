@@ -51,7 +51,7 @@ h87login.style.fontStyle = "normal";
 h87login.style.border = "none";
 h87login.style.borderRadius = "0 1.1em 1.1em 0";
 h87login.style.boxShadow = "inset 0 0 0.87em #959200";
-h87login.style.margin = 0;
+h87login.style.margin = 10;
 h87login.style.backgroundColor = "transparent";
 h87login.addEventListener("click", function () {
   window.location.href = "/login";
@@ -76,7 +76,7 @@ h87signup.style.fontSize = "2.6em";
 h87signup.style.border = "none";
 h87signup.style.borderRadius = "0 1.1em 1.1em 0";
 h87signup.style.boxShadow = "inset 0 0 0.87em #959200";
-h87signup.style.margin = 0;
+h87signup.style.margin = 10;
 h87signup.style.backgroundColor = "transparent";
 h87signup.addEventListener("click", function () {
   window.location.href = "/login";
