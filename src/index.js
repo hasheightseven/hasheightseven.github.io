@@ -59,7 +59,10 @@ h87login.addEventListener("mouseover", function () {
 const h87signup = document.createElement("button");
 h87signup.setAttribute("type", "button");
 h87signup.textContent = "sign up";
-h87signup.style.fontFamily = "brittany";
+h87signup.style.fontFamily = "Playwrite GB S, cursive";
+h87signup.style.fontOpticalSizing = auto;
+h87signup.style.fontWeight = "<weight>";
+h87signup.style.fontStyle = "normal";
 h87signup.style.letterSpacing = "0.11em";
 h87signup.style.color = "#959200";
 h87signup.style.padding = "0 1.1em 0 2.6em";
