@@ -8,6 +8,6 @@ document.body.innerHTML = `<div id="hashtag-87"></div>`;
 const hash87 = createRoot(document.getElementById("hashtag-87"));
 hash87.render(function () {
   // the whole html goes here
-  <Hash87></Hash87>;
+  "<Hash87></Hash87>";
 });
 // End REF
