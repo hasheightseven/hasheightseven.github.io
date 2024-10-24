@@ -19,7 +19,9 @@ html, body {
   align-items: center;
   justify-content: center
 }
-
+#h87-copy::before {
+  text-content: &copy;
+}
 `;
 const h87 = document.body;
 // h87.style.backgroundColor = "#002611";
@@ -113,8 +115,8 @@ h87signup.addEventListener("mouseout", function () {
   h87signup.style.boxShadow = "inset 0 0 0.87em 0 #959200";
 });
 
-const h87cert = document.createElement("div");
-h87cert.textContent = `#87 &copy ${new Date().fullyear}`;
+const h87copy = document.createElement("div");
+h87copy.textContent = "#87 • 2024";
 
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
