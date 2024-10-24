@@ -3,7 +3,7 @@ window.CSS.registerProperty({
   name: "--h87-bgColor",
   syntax: "<background-color>",
   inherits: false,
-  initialValue: "#",
+  initialValue: "#002611",
 });
 // if there is not adequate bit depth
 // choose a simpler color
