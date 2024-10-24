@@ -9,7 +9,7 @@ document.documentElement.style.backgroundColor = "var(--coffee-color)";
 // if there is not adequate bit depth
 // choose a simpler color
 
-document.body.style.color = "#FACE08";
+// document.body.style.color = "#FACE08";
 
 // clear the existing HTML content
 document.body.innerHTML = `<div id="hashtag-87"></div>`;
