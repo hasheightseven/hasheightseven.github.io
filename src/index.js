@@ -10,7 +10,7 @@ mediascreenstyle.textContent = `
   box-sizing: border-box;
 }
 html, body {
-  background: linear-gradient(26deg, #002611 #959200) no-repeat cover;
+  background: linear-gradient(26deg, #002611, #959200) no-repeat cover;
 }
 
 `;
