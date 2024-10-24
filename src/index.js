@@ -69,6 +69,8 @@ const h87signup = document.createElement("button");
 h87signup.setAttribute("type", "button");
 h87signup.textContent = "sign up";
 h87signup.style.textAlign = "center";
+h87signup.setAttribute("width", "100%");
+h87signup.setAttribute("height", "100%");
 h87signup.style.fontFamily = "Playwrite GB S, cursive";
 h87signup.style.fontOpticalSizing = "auto";
 h87signup.style.fontWeight = "<weight>";
