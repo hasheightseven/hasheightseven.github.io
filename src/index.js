@@ -1,6 +1,6 @@
 const starttime = Date.now();
 
-const mediascreenstyle = document.createElement("style");
+export const mediascreenstyle = document.createElement("style");
 mediascreenstyle.setAttribute("type", "text/css");
 mediascreenstyle.setAttribute("media", "screen");
 mediascreenstyle.textContent = `
