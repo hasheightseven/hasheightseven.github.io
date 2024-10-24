@@ -21,7 +21,7 @@ h87h1.style.fontSize = "8em";
 h87h1.style.backgroundColor = "transparent";
 h87h1.style.color = "transparent";
 h87h1.style.textShadow = "0 0 0.011em #959200";
-h87h1.style.paddingBottom = "0.45em";
+h87h1.style.paddingBottom = h87h1.style.paddingTop = "0.45em";
 h87h1.style.paddingInline = "0.45em";
 h87h1.addEventListener("mouseover", function () {
   h87h1.style.cursor = "pointer";
