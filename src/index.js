@@ -43,6 +43,8 @@ const h87login = document.createElement("button");
 h87login.setAttribute("type", "button");
 h87login.textContent = "login";
 h87login.style.color = "#959200";
+h87login.style.width = "100%";
+h87login.style.height = "100%";
 // h87login.style.padding = "0 1.1em 0 2.6em";
 h87login.style.fontSize = "2.6em";
 h87login.style.fontFamily = "Playwrite GB S, cursive";
@@ -63,7 +65,6 @@ h87login.addEventListener("mouseover", function () {
   h87login.style.boxShadow = "0 0 0.87em 0 #959200";
 });
 h87login.addEventListener("mouseout", function () {
-  h87login.style.textShadow = "0 0 0.87em #959200";
   h87login.style.boxShadow = "inset 0 0 0.87em 0 #959200";
 });
 
@@ -86,6 +87,8 @@ h87signup.style.border = "none";
 h87signup.style.boxShadow = "inset 0 0 0.87em #959200";
 h87signup.style.marginBottom = "8%";
 h87signup.style.backgroundColor = "transparent";
+h87signup.style.width = "100%";
+h87signup.style.height = "100%";
 h87signup.addEventListener("click", function () {
   window.location.href = "/login";
 });
@@ -95,7 +98,6 @@ h87signup.addEventListener("mouseover", function () {
   h87signup.style.boxShadow = "0 0 0.87em 0 #959200";
 });
 h87signup.addEventListener("mouseout", function () {
-  h87signup.style.textShadow = "0 0 0.87em #959200";
   h87signup.style.boxShadow = "inset 0 0 0.87em 0 #959200";
 });
 
