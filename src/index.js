@@ -51,6 +51,8 @@ h87login.addEventListener("click", function () {
 });
 h87login.addEventListener("mouseover", function () {
   h87login.style.cursor = "pointer";
+  h87login.style.textShadow = "0 0 0.11em #002611";
+  h87login.style.boxShadow = "0 0 0.11em 0 #959200";
 });
 
 h87.appendChild(h87h1);
