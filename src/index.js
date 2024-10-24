@@ -8,6 +8,7 @@ window.CSS.registerProperty({
 document.documentElement.style.backgroundColor = "var(--coffee-color)";
 // if there is not adequate bit depth
 // choose a simpler color
+
 document.body.style.color =
   window.screen.pixelDepth > 8 ? "#FAEBD7" : "#FFFFFF";
 
