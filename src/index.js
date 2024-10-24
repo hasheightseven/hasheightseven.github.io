@@ -11,7 +11,7 @@ mediascreenstyle.textContent = `
 }
 html, body {
   background: radial-gradient(ellipse at top, #002611, transparent),
-            radial-gradient(ellipse at bottom, #959200, transparent);
+            radial-gradient(ellipse at bottom, #959200, transparent) no-repeat cover;
   align-items: center;
   justify-content: center
 }
