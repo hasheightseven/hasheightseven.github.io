@@ -39,3 +39,36 @@ h87login.style.margin = 0;
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
 h87div1.appendChild(h87login);
+
+const canvas = document.createElement("canvas");
+h87.appendChild(canvas);
+const ctx = canvas.getContext("2d");
+
+// Circle properties
+let x = canvas.width / 2;
+let y = canvas.height / 2;
+let radius = 30;
+let speed = 2;
+let angle = 0;
+
+// Animation loop
+function animate() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height); // Clear the canvas
+
+  // Calculate new position
+  x = canvas.width / 2 + Math.sin(angle) * 100; // Circular motion
+  y = canvas.height / 2 + Math.cos(angle) * 100; // Circular motion
+  angle += 0.05; // Increment the angle for the next frame
+
+  // Draw the circle
+  ctx.beginPath();
+  ctx.arc(x, y, radius, 0, Math.PI * 2, false);
+  ctx.fillStyle = "blue"; // Circle color
+  ctx.fill();
+  ctx.closePath();
+
+  requestAnimationFrame(animate); // Request the next frame
+}
+
+// Start the animation
+animate();
