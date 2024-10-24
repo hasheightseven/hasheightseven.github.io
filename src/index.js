@@ -1,6 +1,6 @@
 const starttime = Date.now();
 window.CSS.registerProperty({
-  name: "--cofee-color",
+  name: "--coffee-color",
   syntax: "<color>",
   inherits: false,
   initialValue: "#c0ffee",
