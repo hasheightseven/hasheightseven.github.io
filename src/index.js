@@ -22,6 +22,13 @@ h87h1.style.backgroundColor = "transparent";
 h87h1.style.color = "transparent";
 h87h1.style.textShadow = "0 0 0.011em #959200";
 h87h1.style.paddingLeft = "0.54em";
+h87h1.addEventListener("mouseover", function () {
+  h87h1.style.cursor = "pointer";
+});
+h87h1.addEventListener("click", function () {
+  window.location.href = "/";
+});
+
 const h87div1 = document.createElement("div");
 h87div1.style.width = "100%";
 h87div1.style.height = "100%";
@@ -38,6 +45,10 @@ h87login.style.borderRadius = "0 2.6em 2.6em 0";
 h87login.style.boxShadow = "inset 0 0 0.54em #959200";
 h87login.style.margin = 0;
 h87login.style.backgroundColor = "transparent";
+h87login.addEventListener("click", function () {
+  window.location.href = "/login";
+});
+
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
 h87div1.appendChild(h87login);
