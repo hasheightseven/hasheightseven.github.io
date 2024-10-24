@@ -29,7 +29,7 @@ h87div1.style.height = "100%";
 const h87login = document.createElement("button");
 h87login.textContent = "login";
 h87login.setAttribute("width", "250px");
-h87login.style.padding = "0 2em";
+h87login.style.padding = "0 1.1em";
 h87login.style.fontSize = "300%";
 h87login.style.borderRadius = "0 2.6em 2.6em 0";
 h87login.style.boxShadow = "inset 0 0 8% radial-gradient(#002611, #000429)";
