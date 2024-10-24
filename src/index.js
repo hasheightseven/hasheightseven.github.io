@@ -6,6 +6,10 @@ window.CSS.registerProperty({
   initialValue: "#c0ffee",
 });
 
+// if there is not adequate bit depth
+// choose a simpler color
+document.style.color = window.screen.pixelDepth > 8 ? "#FAEBD7" : "#FFFFFF";
+
 // clear the existing HTML content
 document.body.innerHTML = `<div id="hashtag-87"></div>`;
 
