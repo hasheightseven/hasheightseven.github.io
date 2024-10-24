@@ -17,7 +17,9 @@ const h87 = document.getElementById("hashtag-87");
 h87.style.backgroundColor = "#002611";
 
 const h87h1 = document.createElement("h1");
+h87h1.textContent = "#87";
 const h87div1 = document.createElement("div");
+h87div1.textContent = "login";
 
 const h87login = document.createElement("button");
 h87login.setAttribute("width", "100%");
