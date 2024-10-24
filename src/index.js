@@ -91,7 +91,7 @@ h87signup.style.backgroundColor = "transparent";
 h87signup.style.width = "100%";
 h87signup.style.height = "100%";
 h87signup.addEventListener("click", function () {
-  window.location.href = "/login";
+  window.location.href = "/signup";
 });
 h87signup.addEventListener("mouseover", function () {
   h87signup.style.cursor = "pointer";
