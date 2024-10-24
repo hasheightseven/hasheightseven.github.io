@@ -1,7 +1,7 @@
 const starttime = Date.now();
 window.CSS.registerProperty({
-  name: "--h87-bgColor",
-  syntax: "<background-color>",
+  name: "--h87-color",
+  syntax: "<color>",
   inherits: false,
   initialValue: "#002611",
 });
@@ -14,7 +14,7 @@ window.CSS.registerProperty({
 document.body.innerHTML = `<div id="hashtag-87"></div>`;
 
 const h87 = document.getElementById("hashtag-87");
-h87.style.backgroundColor = "var(--h87-bgColor)";
+h87.style.backgroundColor = "var(--h87-color)";
 
 const h87h1 = document.createElement("h1");
 const h87div1 = document.createElement("div");
