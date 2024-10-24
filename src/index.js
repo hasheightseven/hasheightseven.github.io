@@ -1,11 +1,10 @@
 const starttime = Date.now();
 window.CSS.registerProperty({
-  name: "--coffee-color",
-  syntax: "<color>",
+  name: "--h87-bgColor",
+  syntax: "<background-color>",
   inherits: false,
-  initialValue: "#c0ffee",
+  initialValue: "#",
 });
-document.documentElement.style.backgroundColor = "#c0ffee"; //"var(--coffee-color)";
 // if there is not adequate bit depth
 // choose a simpler color
 
@@ -15,6 +14,7 @@ document.documentElement.style.backgroundColor = "#c0ffee"; //"var(--coffee-colo
 document.body.innerHTML = `<div id="hashtag-87"></div>`;
 
 const h87 = document.getElementById("hashtag-87");
+h87.style.backgroundColor = "var(--h87-bgColor)";
 
 const h87h1 = document.createElement("h1");
 const h87div1 = document.createElement("div");
