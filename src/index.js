@@ -114,7 +114,7 @@ h87signup.addEventListener("mouseout", function () {
 });
 
 const h87cert = document.createElement("div");
-h87cert.textContent = `${h87.textContent} &middot 2024`;
+h87cert.textContent = `#87 &copy ${Date.fullyear}`;
 
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
