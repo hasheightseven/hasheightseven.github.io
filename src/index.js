@@ -35,7 +35,7 @@ h87login.style.fontSize = "2.6em";
 h87login.setAttribute("type", "button");
 h87login.style.border = "none";
 h87login.style.borderRadius = "0 2.6em 2.6em 0";
-h87login.style.boxShadow = "inset 0 0 8% radial-gradient(#002611, #000429)";
+h87login.style.boxShadow = "inset 0 0 0.54em #323232";
 h87login.style.margin = 0;
 h87login.style.backgroundColor = "transparent";
 h87.appendChild(h87h1);
