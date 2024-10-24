@@ -10,8 +10,8 @@ mediascreenstyle.textContent = `
   box-sizing: border-box;
 }
 html, body {
-  background: radial-gradient(ellipse at top, #e66465, transparent),
-            radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+  background: radial-gradient(ellipse at top, #002611, transparent),
+            radial-gradient(ellipse at bottom, #959200, transparent);
   align-items: center;
   justify-content: center
 }
