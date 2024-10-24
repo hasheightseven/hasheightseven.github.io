@@ -20,7 +20,7 @@ h87h1.style.fontFamily = "Helvetica Neue, Helvetica Sans, sans-serif";
 h87h1.style.fontSize = "420%";
 h87h1.style.backgroundColor = "transparent";
 h87h1.style.color = "transparent";
-h87h1.style.textShadow = "0 0 0.08em #323232";
+h87h1.style.textShadow = "0 0 0.026em #323232";
 
 const h87div1 = document.createElement("div");
 h87div1.style.width = "100%";
@@ -36,7 +36,7 @@ h87login.style.border = "none";
 h87login.style.borderRadius = "0 2.6em 2.6em 0";
 h87login.style.boxShadow = "inset 0 0 8% radial-gradient(#002611, #000429)";
 h87login.style.margin = 0;
-
+h87login.style.backgroundColor = "transparent";
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
 h87div1.appendChild(h87login);
