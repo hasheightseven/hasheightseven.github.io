@@ -9,6 +9,8 @@ mediascreenstyle.textContent = `
   padding: 0;
   box-sizing: border-box;
 }
+html, body {
+  background-color: radial-gradient(69deg, #002611, #959200)};
 `;
 const h87 = document.body;
 h87.style.backgroundColor = "#002611";
