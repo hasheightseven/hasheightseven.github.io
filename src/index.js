@@ -54,7 +54,7 @@ h87login.style.fontStyle = "normal";
 h87login.style.border = "none";
 // h87login.style.borderRadius = "0 1.1em 1.1em 0";
 h87login.style.boxShadow = "inset 0 0 0.87em #959200";
-h87login.style.marginBottom = "8%";
+h87login.style.marginBottom = "1.1%";
 h87login.style.backgroundColor = "transparent";
 h87login.addEventListener("click", function () {
   window.location.href = "/login";
@@ -85,7 +85,7 @@ h87signup.style.fontSize = "2.6em";
 h87signup.style.border = "none";
 // h87signup.style.borderRadius = "0 1.1em 1.1em 0";
 h87signup.style.boxShadow = "inset 0 0 0.87em #959200";
-h87signup.style.marginBottom = "8%";
+h87signup.style.marginBottom = "1.1%";
 h87signup.style.backgroundColor = "transparent";
 h87signup.style.width = "100%";
 h87signup.style.height = "100%";
