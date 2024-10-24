@@ -14,7 +14,7 @@ const h87 = document.body;
 h87.style.backgroundColor = "#002611";
 h87.appendChild(mediascreenstyle);
 
-const h87h1 = document.createElement("h1");
+const h87h1 = document.createElement("div");
 h87h1.textContent = "#87";
 h87h1.style.fontFamily = "Helvetica Neue, Helvetica Sans, sans-serif";
 h87h1.style.fontSize = "420%";
