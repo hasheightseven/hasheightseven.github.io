@@ -1,6 +1,8 @@
 const starttime = Date.now();
 
 const mediascreenstyle = document.createElement("style");
+mediascreenstyle.setAttribute("type", "text/css");
+mediascreenstyle.setAttribute("media", "screen");
 mediascreenstyle.textContent = `
 * {
   margin: 0;
@@ -10,6 +12,7 @@ mediascreenstyle.textContent = `
 `;
 const h87 = document.body;
 h87.style.backgroundColor = "#002611";
+h87.appendChild(mediascreenstyle);
 
 const h87h1 = document.createElement("h1");
 h87h1.textContent = "#87";
