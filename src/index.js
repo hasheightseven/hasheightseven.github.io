@@ -32,6 +32,7 @@ h87login.textContent = "login";
 h87login.setAttribute("width", "250px");
 h87login.style.padding = "0.11em 0 0.08em 0";
 h87login.style.fontSize = "2.6em";
+h87login.setAttribute("type", "button");
 h87login.style.border = "none";
 h87login.style.borderRadius = "0 2.6em 2.6em 0";
 h87login.style.boxShadow = "inset 0 0 8% radial-gradient(#002611, #000429)";
