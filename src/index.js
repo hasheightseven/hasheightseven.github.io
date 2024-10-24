@@ -50,6 +50,33 @@ let y = canvas.height / 2;
 let radius = 30;
 let speed = 2;
 let angle = 0;
+let color = "blue";
+
+// Function to handle mouse click for color change
+canvas.addEventListener("click", () => {
+  // Generate a random color
+  color = `hsl(${Math.random() * 360}, 100%, 50%)`;
+});
+
+// Function to handle mouse movement for resizing the circle
+canvas.addEventListener("mousemove", (event) => {
+  const rect = canvas.getBoundingClientRect();
+  const mouseX = event.clientX - rect.left;
+  const mouseY = event.clientY - rect.top;
+
+  // Calculate distance from the circle's center
+  const distance = Math.sqrt((mouseX - x) ** 2 + (mouseY - y) ** 2);
+  radius = distance < 50 ? 50 - distance : 30; // Limit radius to a minimum
+});
+
+// Function to handle keyboard input for changing speed
+window.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowUp") {
+    speed += 0.5; // Increase speed
+  } else if (event.key === "ArrowDown") {
+    speed = Math.max(0.5, speed - 0.5); // Decrease speed, limit to a minimum
+  }
+});
 
 // Animation loop
 function animate() {
@@ -58,12 +85,12 @@ function animate() {
   // Calculate new position
   x = canvas.width / 2 + Math.sin(angle) * 100; // Circular motion
   y = canvas.height / 2 + Math.cos(angle) * 100; // Circular motion
-  angle += 0.05; // Increment the angle for the next frame
+  angle += speed * 0.01; // Increment the angle for the next frame
 
   // Draw the circle
   ctx.beginPath();
   ctx.arc(x, y, radius, 0, Math.PI * 2, false);
-  ctx.fillStyle = "blue"; // Circle color
+  ctx.fillStyle = color; // Use the current color
   ctx.fill();
   ctx.closePath();
 
