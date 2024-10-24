@@ -9,8 +9,7 @@ document.documentElement.style.backgroundColor = "var(--coffee-color)";
 // if there is not adequate bit depth
 // choose a simpler color
 
-document.body.style.color =
-  window.screen.pixelDepth > 8 ? "#FAEBD7" : "#FFFFFF";
+document.body.style.color = "#FAEBD7";
 
 // clear the existing HTML content
 document.body.innerHTML = `<div id="hashtag-87"></div>`;
