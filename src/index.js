@@ -12,7 +12,10 @@ window.CSS.registerProperty({
 
 // clear the existing HTML content
 document.body.innerHTML = `<div id="hashtag-87"></div>`;
-
+CSS.registerProperty({
+  name: "--writing-suggestions",
+  syntax: "writingSuggestions",
+});
 const h87 = document.getElementById("hashtag-87");
 h87.style.backgroundColor = "var(--h87-color)";
 
