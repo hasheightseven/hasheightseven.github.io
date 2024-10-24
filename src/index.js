@@ -21,7 +21,7 @@ h87h1.style.fontSize = "420%";
 h87h1.style.backgroundColor = "transparent";
 h87h1.style.color = "transparent";
 h87h1.style.textShadow = "0 0 0.026em #323232";
-
+h87h1.style.paddingLeft = "0.26em";
 const h87div1 = document.createElement("div");
 h87div1.style.width = "100%";
 h87div1.style.height = "100%";
