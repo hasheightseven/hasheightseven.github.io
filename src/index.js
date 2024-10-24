@@ -5,7 +5,7 @@ window.CSS.registerProperty({
   inherits: false,
   initialValue: "#c0ffee",
 });
-document.documentElement.style.backgroundColor = "var(--coffee-color)";
+document.documentElement.style.backgroundColor = "#c0ffee"; //"var(--coffee-color)";
 // if there is not adequate bit depth
 // choose a simpler color
 
