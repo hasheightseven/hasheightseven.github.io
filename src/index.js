@@ -37,6 +37,7 @@ h87div1.style.height = "100%";
 const h87login = document.createElement("button");
 h87login.setAttribute("type", "button");
 h87login.textContent = "login";
+h87login.style.fontFamily = "brittany";
 h87login.style.letterSpacing = "0.11em";
 h87login.style.color = "#959200";
 h87login.style.padding = "0 1.1em 0 2.6em";
