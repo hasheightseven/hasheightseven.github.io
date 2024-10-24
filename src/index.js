@@ -1,19 +1,6 @@
 const starttime = Date.now();
-window.CSS.registerProperty({
-  name: "--h87-color",
-  syntax: "<color>",
-  inherits: false,
-  initialValue: "#002611",
-});
 
-document.body.innerHTML = `<div id="hashtag-87"></div>`;
-
-// CSS.registerProperty({
-//   name: "--writing-suggestions",
-//   syntax: "writingSuggestions",
-// });
-
-const h87 = document.body; // document.getElementById("hashtag-87");
+const h87 = document.body;
 h87.style.backgroundColor = "#002611";
 
 const h87h1 = document.createElement("h1");
@@ -22,7 +9,12 @@ h87h1.style.fontFamily = "Helvetica Neue, Helvetica Sans, sans-serif";
 h87h1.style.fontSize = "169%";
 h87h1.style.backgroundColor = "#290260";
 h87h1.style.color = "transparent";
+
 const h87div1 = document.createElement("div");
+h87div1.style.width = "100%";
+h87div1.style.height = "100%";
+h87div1.style.borderRadius = "0 2.6em 2.6em 0";
+h87div1.style.boxShadow = "inset 0 0 8% radial-gradient(#002611, #000429)";
 
 const h87login = document.createElement("button");
 h87login.textContent = "login";
