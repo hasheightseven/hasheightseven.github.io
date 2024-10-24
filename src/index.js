@@ -30,7 +30,7 @@ const h87login = document.createElement("button");
 h87login.textContent = "login";
 h87login.style.color = "#323232";
 h87login.setAttribute("width", "250px");
-h87login.style.padding = "0.11em";
+h87login.style.padding = "auto 1.1em auto 2.6em";
 h87login.style.fontSize = "2.6em";
 h87login.setAttribute("type", "button");
 h87login.style.border = "none";
