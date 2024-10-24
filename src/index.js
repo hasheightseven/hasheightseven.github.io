@@ -28,8 +28,9 @@ h87div1.style.height = "100%";
 
 const h87login = document.createElement("button");
 h87login.textContent = "login";
+h87login.style.color = "#323232";
 h87login.setAttribute("width", "250px");
-h87login.style.padding = "0 0.11em 0 0.08em";
+h87login.style.padding = "0.11em";
 h87login.style.fontSize = "2.6em";
 h87login.setAttribute("type", "button");
 h87login.style.border = "none";
