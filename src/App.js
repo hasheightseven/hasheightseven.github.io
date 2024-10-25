@@ -1,4 +1,4 @@
-import React from "/src/react.developer.js";
+import React from "/src/react.development.js";
 
 // A simple Button component
 const Button = ({ label, onClick }) => {
