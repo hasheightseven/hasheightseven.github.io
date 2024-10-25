@@ -1,7 +1,9 @@
 import { createStore } from "redux";
 
+// Initial state
 const initialState = {
   counter: 0,
+  someData: "Hello, Redux!",
 };
 
 const reducer = (state = initialState, action) => {
