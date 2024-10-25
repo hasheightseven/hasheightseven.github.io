@@ -7,7 +7,7 @@ import Routes from "./Routes";
 import { Provider } from "react-redux";
 import store from "./store";
 
-ReactDOM.render(
+ReactDOM.createPortal(
   <React.StrictMode>
     <Provider store={store}>
       <Routes />
