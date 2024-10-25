@@ -13,11 +13,21 @@
         <ul>
           <li>
             <p>Page is not available. Wanna go back to</p>
-            <a
-              href="/"
-              onmouseover="this.style.cursor='pointer'; this.style.backgroundColor='#002611'"
-              >#87</a
-            >
+            <a id="hasheightsevenlink">#87</a>
+            <script>
+              document
+                .getElementById("hasheightsevenlink")
+                .addEventListener("click", function () {
+                  // Parameters for the popup window
+                  const url = "/"; // URL to open in the popup
+                  const title = "My Popup Window"; // Title of the popup window
+                  const options =
+                    "width=600,height=400,resizable=yes,scrollbars=yes"; // Popup window options
+
+                  // Open the popup window
+                  window.open(url, title, options);
+                });
+            </script>
           </li>
         </ul>
       </nav>
