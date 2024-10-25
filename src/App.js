@@ -1,4 +1,4 @@
-var React = require("react");
+// var React = require("react");
 
 // A simple Button component
 const Button = ({ label, onClick }) => {
