@@ -1,157 +1,17 @@
-const starttime = Date.now();
+// src/index.js
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import Routes from "./Routes";
+import { Provider } from "react-redux";
+import store from "./store";
 
-function createSlug(text) {
-  return text
-    .toLowerCase() // Convert to lowercase
-    .trim() // Remove leading and trailing spaces
-    .replace(/[\s]+/g, "-") // Replace spaces with hyphens
-    .replace(/[^\w\-]+/g, "") // Remove all non-word characters except hyphens
-    .replace(/\-\-+/g, "-") // Replace multiple hyphens with a single hyphen
-    .replace(/^-+|-+$/g, ""); // Remove hyphens from the start and end
-}
-
-// Example usage
-const title = "Creating a Slug for a File!";
-const slug = createSlug(title);
-console.log(slug); // Output: "creating-a-slug-for-a-file"
-
-export const mediascreenstyle = document.createElement("style");
-mediascreenstyle.setAttribute("type", "text/css");
-mediascreenstyle.setAttribute("media", "screen");
-mediascreenstyle.textContent = `
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html, body {
-  background: radial-gradient(ellipse at top, #002611, transparent),
-            radial-gradient(ellipse at bottom, #959200, transparent);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-#h87-copy::before {
-  text-content: &copy;
-}
-`;
-const h87 = document.body;
-// h87.style.backgroundColor = "#002611";
-h87.appendChild(mediascreenstyle);
-
-const h87h1 = document.createElement("div");
-h87h1.textContent = "#87";
-h87h1.style.textAlign = "center";
-//h87h1.style.fontFamily = "Helvetica Neue, Helvetica Sans, sans-serif";
-h87h1.style.fontFamily = "Kablammo, system-ui";
-h87h1.style.fontOpticalSizing = "auto";
-h87h1.style.fontWeight = "<weight>";
-h87h1.style.fontStyle = "normal";
-h87h1.style.fontWeight = "400";
-h87h1.style.fontVariationSettings = "MORF 0";
-h87h1.style.fontSize = "8em";
-h87h1.style.backgroundColor = "transparent";
-h87h1.style.color = "transparent";
-h87h1.style.textShadow = "0 0 0.011em #959200";
-h87h1.style.paddingBottom = h87h1.style.paddingTop = "0.26em";
-h87h1.style.paddingInline = "0.45em";
-h87h1.addEventListener("mouseover", function () {
-  h87h1.style.cursor = "pointer";
-});
-h87h1.addEventListener("click", function () {
-  window.location.href = "/";
-});
-
-const h87div1 = document.createElement("div");
-h87div1.style.width = "100%";
-h87div1.style.height = "100%";
-h87div1.style.margin = "8em auto";
-h87div1.style.display = "flex";
-h87div1.style.flexDirection = "column";
-
-const h87login = document.createElement("button");
-h87login.setAttribute("type", "button");
-h87login.textContent = "login";
-h87login.style.color = "#959200";
-h87login.style.width = "100%";
-h87login.style.height = "100%";
-// h87login.style.padding = "0 1.1em 0 2.6em";
-h87login.style.fontSize = "2.6em";
-h87login.style.fontFamily = "Playwrite GB S, cursive";
-h87login.style.fontOpticalSizing = "auto";
-h87login.style.fontWeight = "<weight>";
-h87login.style.fontStyle = "normal";
-h87login.style.border = "none";
-// h87login.style.borderRadius = "0 1.1em 1.1em 0";
-h87login.style.boxShadow = "inset 0 0 0.87em #959200";
-h87login.style.marginBottom = "1.1%";
-h87login.style.backgroundColor = "transparent";
-h87login.addEventListener("click", function () {
-  window.location.href = "/login";
-});
-h87login.addEventListener("mouseover", function () {
-  h87login.style.cursor = "pointer";
-  h87login.style.textShadow = "0 0 0.87em #959200";
-  h87login.style.boxShadow = "0 0 0.87em 0 #959200";
-});
-h87login.addEventListener("mouseout", function () {
-  h87login.style.textShadow = "0 0 0.011em #002611";
-  h87login.style.boxShadow = "inset 0 0 0.87em 0 #959200";
-});
-
-const h87signup = document.createElement("button");
-h87signup.setAttribute("type", "button");
-h87signup.textContent = "sign up";
-h87signup.style.textAlign = "center";
-h87signup.setAttribute("width", "100%");
-h87signup.setAttribute("height", "100%");
-h87signup.style.fontFamily = "Playwrite GB S, cursive";
-h87signup.style.fontOpticalSizing = "auto";
-h87signup.style.fontWeight = "<weight>";
-h87signup.style.fontStyle = "normal";
-// h87signup.style.letterSpacing = "0.11em";
-h87signup.style.color = "#959200";
-// h87signup.style.padding = "0 1.1em 0 2.6em";
-h87signup.style.fontSize = "2.6em";
-h87signup.style.border = "none";
-// h87signup.style.borderRadius = "0 1.1em 1.1em 0";
-h87signup.style.boxShadow = "inset 0 0 0.87em #959200";
-h87signup.style.marginBottom = "1.1%";
-h87signup.style.backgroundColor = "transparent";
-h87signup.style.width = "100%";
-h87signup.style.height = "100%";
-h87signup.addEventListener("click", function () {
-  window.location.href = "/signup";
-});
-h87signup.addEventListener("mouseover", function () {
-  h87signup.style.cursor = "pointer";
-  h87signup.style.textShadow = "0 0 0.87em #959200";
-  h87signup.style.boxShadow = "0 0 0.87em 0 #959200";
-});
-h87signup.addEventListener("mouseout", function () {
-  h87signup.style.textShadow = "0 0 0.011em #002611";
-  h87signup.style.boxShadow = "inset 0 0 0.87em 0 #959200";
-});
-
-const copyrightimg = document.createElement("img");
-copyrightimg.setAttribute(
-  "src",
-  "/assets/media/copyright_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+ReactDOM.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <Routes />
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById("root")
 );
-copyrightimg.setAttribute("alt", " © ");
-
-const h87copy = document.createElement("small");
-h87copy.style.fontSize = "126%";
-h87copy.style.marginBlockStart = "2.6em";
-h87copy.style.paddingInlineStart = "0.8em";
-h87copy.style.color = "#323232";
-h87copy.textContent = ` © #87 • 2024`;
-
-h87.appendChild(h87h1);
-h87.appendChild(h87div1);
-h87div1.appendChild(h87login);
-h87div1.appendChild(h87signup);
-h87.appendChild(h87copy);
-
-import App from "./App.js";
-document.body.appendChild(App);
