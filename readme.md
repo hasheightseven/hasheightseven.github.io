@@ -1,24 +1,35 @@
-# #87
+# [#87](https://hasheightseven.github.io/)
 
 ## Hashtag 87!
 
-This project is a simple React application that demonstrates the use of components and external JavaScript files.
+This is a sample project that demonstrates linking in Markdown.
 
-## Features
+## Links
 
-- Component-based structure
-- Easy to maintain
-- Uses React via CDN
+- [GitHub Repository](https://github.com/hasheightseven/87)
+<!-- - [Documentation](https://yourproject.com/docs "Visit the documentation") -->
+- [License](LICENSE)
+
+## Sections
+
+You can jump to different sections:
+
+- [Getting Started](#getting-started)
+- [Usage](#usage)
 
 ## Getting Started
 
-To get started, clone the repository and open the `index.html` file in your browser.
+Follow the instructions to get started with the project.
 
-### Prerequisites
+## Usage
 
-- A modern web browser (e.g., Chrome, Firefox)
+Here’s how to use the project.
 
-### Installation
+## Images
+
+You can also use images as links:
+
+<!-- [![Project Logo](https://example.com/logo.png)](https://example.com) -->
 
 1. Clone the repository:
    ```bash
