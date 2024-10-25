@@ -121,8 +121,12 @@ h87signup.addEventListener("mouseout", function () {
   h87signup.style.boxShadow = "inset 0 0 0.87em 0 #959200";
 });
 
+const copyrightimg = document.createElement("img");
+copyrightimg.setAttribute("src", "/assets/media/copyright_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg")
+copyrightimg.setAttribute("alt", )
+
 const h87copy = document.createElement("div");
-h87copy.textContent = "#87 • 2024";
+h87copy.textContent = `#87 © 2024`;
 
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
