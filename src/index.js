@@ -146,6 +146,7 @@ copyrightimg.setAttribute("alt", " © ");
 const h87copy = document.createElement("div");
 h87copy.style.fontSize = "300%";
 h87copy.style.padding = "0.26em auto";
+h87copy.style.color = "radial-gradient(circle, #002611, #290260)";
 h87copy.textContent = `#87 © ${copyrightimg.innerHTML} 2024`;
 
 h87.appendChild(h87h1);
