@@ -14,7 +14,7 @@ const App = () => {
   return `
     <div>
       <h1>Component-Based Programming</h1>
-      <Button label="Click Me" onClick={handleClick} />
+      <Button label="Click Me" onClick=${handleClick} />
     </div>
   `;
 };
