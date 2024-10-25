@@ -126,7 +126,7 @@ copyrightimg.setAttribute(
   "src",
   "/assets/media/copyright_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
 );
-copyrightimg.setAttribute("alt");
+copyrightimg.setAttribute("alt", " © ");
 
 const h87copy = document.createElement("div");
 h87copy.textContent = `#87 © ${copyrightimg.innerHTML} 2024`;
