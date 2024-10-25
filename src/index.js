@@ -145,8 +145,8 @@ copyrightimg.setAttribute("alt", " © ");
 
 const h87copy = document.createElement("small");
 h87copy.style.fontSize = "126%";
-h87copy.style.marginTop = "2.6em";
-h87copy.style.paddingLeft = "0.8em";
+h87copy.style.marginBlockStart = "2.6em";
+h87copy.style.paddingInlineStart = "0.8em";
 h87copy.style.color = "#323232";
 h87copy.textContent = ` © #87 • pluseightseven.com • 2024`;
 
