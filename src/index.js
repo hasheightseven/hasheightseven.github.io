@@ -154,4 +154,4 @@ h87div1.appendChild(h87signup);
 h87.appendChild(h87copy);
 
 import App from "./App.js";
-document.body.appendChild(<App></App>);
+document.body.appendChild(App);
