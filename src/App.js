@@ -1,4 +1,4 @@
-import React from "https://unpkg.com/react@18/umd/react.development.js";
+var React = require("react");
 
 // A simple Button component
 const Button = ({ label, onClick }) => {
