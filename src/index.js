@@ -126,7 +126,7 @@ copyrightimg.setAttribute("src", "/assets/media/copyright_24dp_E8EAED_FILL0_wght
 copyrightimg.setAttribute("alt", )
 
 const h87copy = document.createElement("div");
-h87copy.textContent = `#87 © 2024`;
+h87copy.textContent = `#87 © ${copyrightimg.innerHTML} 2024`;
 
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
