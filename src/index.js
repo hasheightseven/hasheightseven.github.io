@@ -148,7 +148,7 @@ h87copy.style.fontSize = "126%";
 h87copy.style.marginBlockStart = "2.6em";
 h87copy.style.paddingInlineStart = "0.8em";
 h87copy.style.color = "#323232";
-h87copy.textContent = ` © #87 • pluseightseven.com • 2024`;
+h87copy.textContent = ` © #87 • pluseightseven • 2024`.toLocaleUpperCase;
 
 h87.appendChild(h87h1);
 h87.appendChild(h87div1);
