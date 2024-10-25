@@ -32,7 +32,7 @@ h87h1.textContent = "#87";
 h87h1.style.textAlign = "center";
 //h87h1.style.fontFamily = "Helvetica Neue, Helvetica Sans, sans-serif";
 h87h1.style.fontFamily = "Kablammo, system-ui";
-h87h1.style.fontOpticalSizing: "auto";
+h87h1.style.fontOpticalSizing = "auto";
 h87h1.style.fontWeight = "<weight>";
 h87h1.style.fontStyle = "normal";
 h87h1.style.fontWeight = "400";
@@ -122,8 +122,11 @@ h87signup.addEventListener("mouseout", function () {
 });
 
 const copyrightimg = document.createElement("img");
-copyrightimg.setAttribute("src", "/assets/media/copyright_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg")
-copyrightimg.setAttribute("alt", )
+copyrightimg.setAttribute(
+  "src",
+  "/assets/media/copyright_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+);
+copyrightimg.setAttribute("alt");
 
 const h87copy = document.createElement("div");
 h87copy.textContent = `#87 © ${copyrightimg.innerHTML} 2024`;
