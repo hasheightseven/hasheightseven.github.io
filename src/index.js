@@ -150,4 +150,4 @@ h87.appendChild(h87h1);
 h87.appendChild(h87div1);
 h87div1.appendChild(h87login);
 h87div1.appendChild(h87signup);
-h87.appendChild(h87cert);
+h87.appendChild(h87copy);
