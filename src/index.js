@@ -1,5 +1,20 @@
 const starttime = Date.now();
 
+function createSlug(text) {
+  return text
+    .toLowerCase() // Convert to lowercase
+    .trim() // Remove leading and trailing spaces
+    .replace(/[\s]+/g, "-") // Replace spaces with hyphens
+    .replace(/[^\w\-]+/g, "") // Remove all non-word characters except hyphens
+    .replace(/\-\-+/g, "-") // Replace multiple hyphens with a single hyphen
+    .replace(/^-+|-+$/g, ""); // Remove hyphens from the start and end
+}
+
+// Example usage
+const title = "Creating a Slug for a File!";
+const slug = createSlug(title);
+console.log(slug); // Output: "creating-a-slug-for-a-file"
+
 export const mediascreenstyle = document.createElement("style");
 mediascreenstyle.setAttribute("type", "text/css");
 mediascreenstyle.setAttribute("media", "screen");
