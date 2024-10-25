@@ -30,9 +30,6 @@ html, body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  align-items: center;
-  justify-content: center
 }
 #h87-copy::before {
   text-content: &copy;
