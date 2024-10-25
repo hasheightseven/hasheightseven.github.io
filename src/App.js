@@ -2,7 +2,7 @@ import React from "react";
 
 // A simple Button component
 const Button = ({ label, onClick }) => {
-  return `<button onClick={onClick}>{label}</button>`;
+  return `<button onClick=${onClick}>${label}</button>`;
 };
 
 // Parent component using the Button
