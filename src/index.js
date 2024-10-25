@@ -144,7 +144,7 @@ copyrightimg.setAttribute(
 copyrightimg.setAttribute("alt", " © ");
 
 const h87copy = document.createElement("small");
-h87copy.style.fontSize = "169%";
+h87copy.style.fontSize = "126%";
 h87copy.style.marginTop = "2.6em";
 h87copy.style.paddingLeft = "0.8em";
 h87copy.style.color = "#323232";
