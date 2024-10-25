@@ -11,12 +11,12 @@ const App = () => {
     alert("Button clicked!");
   };
 
-  return (
+  return `
     <div>
       <h1>Component-Based Programming</h1>
       <Button label="Click Me" onClick={handleClick} />
     </div>
-  );
+  `;
 };
 
 export default App;
