@@ -11,10 +11,10 @@ rootelement.setAttribute("id", "root");
 document.body.appendChild(rootelement);
 const root = ReactDOM.createRoot(rootelement);
 
-root.render(
+root.render(`
   <React.StrictMode>
-    <Provider store={store}>
+    <Provider store=${store}>
       <Routes />
     </Provider>
   </React.StrictMode>
-);
+  `);
