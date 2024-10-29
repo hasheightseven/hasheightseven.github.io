@@ -10,5 +10,14 @@ document.body.style.color = "#950429";
 
 const rootelement = document.createElement("main");
 document.body.appendChild(rootelement);
-rootelement.textContent = "#eightseven".toUpperCase();
+
+const nota = new string("#eightseven".toUpperCase());
+const hestabtitle = document.querySelector("title");
+hestabtitle.textContent = nota;
+
+const hestitlenlogo = document.createElement("div");
+const hestitle = document.createElement("h1");
+hestitle.textContent = nota;
+
+rootelement.textContent = nota;
 rootelement.style.fontSize = "26px";
