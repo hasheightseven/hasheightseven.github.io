@@ -10,4 +10,4 @@ document.body.addEventListener("load", () => {
 const rootelement = document.createElement("main");
 document.body.appendChild(rootelement);
 rootelement.textContent = "the coffee monkey".toUpperCase();
-rootelement.style.fontSize = "2.6em";
+rootelement.style.fontSize = "5.4em";
