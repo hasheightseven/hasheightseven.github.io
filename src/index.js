@@ -8,9 +8,9 @@ import { hesmain } from "./hesmain.js"
 // append root element to body
 document.body.appendChild(hesmain);
 // name of the app nota
-const nota = new string("#eightseven".toUpperCase());
+export const nota = new string("#eightseven".toUpperCase());
 // website tab title
-let hestabtitle = document.querySelector("title");
+export let hestabtitle = document.querySelector("title");
 hestabtitle.textContent = nota;
 
 const hestitlenlogo = document.createElement("div");
