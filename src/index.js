@@ -2,10 +2,10 @@ document.body.addEventListener("load", () => {
     document.body.style.background = "radial-gradient(corcle, #261192, #042995, #261192, #042995, #261192, #042995, #261192, #042995)";
 });
 
-
+document.documentElement.style.background = "#000";
 //document.body.textContent = `welcome to the café`;
-document.body.style.background = "#112692";
-document.body.style.color = "#950429";
+document.body.style.background = "#000";
+document.body.style.color = "#fff";
 
 
 const rootelement = document.createElement("main");
@@ -18,6 +18,4 @@ hestabtitle.textContent = nota;
 const hestitlenlogo = document.createElement("div");
 const hestitle = document.createElement("h1");
 hestitle.textContent = nota;
-
-rootelement.textContent = nota;
-rootelement.style.fontSize = "26px";
+hestitle.style.fontSize = "26px";
