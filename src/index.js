@@ -4,7 +4,8 @@ document.body.addEventListener("load", () => {
 
 
 //document.body.textContent = `welcome to the café`;
-
+document.body.style.background = "#261192";
+document.body.style.color = "#290260";
 
 
 const rootelement = document.createElement("main");
