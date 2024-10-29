@@ -11,4 +11,4 @@ document.body.style.color = "#290260";
 const rootelement = document.createElement("main");
 document.body.appendChild(rootelement);
 rootelement.textContent = "#eightseven".toUpperCase();
-rootelement.style.fontSize = "5.4em";
+rootelement.style.fontSize = "26px";
