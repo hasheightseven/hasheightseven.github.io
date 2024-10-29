@@ -3,10 +3,11 @@ document.body.addEventListener("load", () => {
 });
 
 
-document.body.textContent = `welcome to the café`;
+//document.body.textContent = `welcome to the café`;
 
 
 
 const rootelement = document.createElement("main");
 document.body.appendChild(rootelement);
 rootelement.textContent = "the coffee monkey".toUpperCase();
+rootelement.style.fontSize = "2.6em";
