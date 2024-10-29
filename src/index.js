@@ -19,3 +19,5 @@ const hestitlenlogo = document.createElement("div");
 const hestitle = document.createElement("h1");
 hestitle.textContent = nota;
 hestitle.style.fontSize = "26px";
+rootelement.appendChild(hestitlenlogo);
+hestitlenlogo.appendChild(hestitle);
