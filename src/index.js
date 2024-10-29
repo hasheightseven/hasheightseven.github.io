@@ -3,7 +3,7 @@ document.body.addEventListener("load", () => {
 });
 
 
-document.body.textContent = `welcome to the café "the coffee monkey"`;
+document.body.textContent = `welcome to the café`;
 
 
 
