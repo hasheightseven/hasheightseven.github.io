@@ -4,10 +4,9 @@ document.documentElement.style.background = "#000";
 document.body.style.background = "#000";
 document.body.style.color = "#fff";
 
-// create root element
-const rootelement = document.createElement("main");
+import { hesmain } from "./hesmain.js" 
 // append root element to body
-document.body.appendChild(rootelement);
+document.body.appendChild(hesmain);
 // name of the app nota
 const nota = new string("#eightseven".toUpperCase());
 // website tab title
@@ -18,7 +17,7 @@ const hestitlenlogo = document.createElement("div");
 const hestitle = document.createElement("h1");
 hestitle.textContent = nota;
 hestitle.style.fontSize = "26px";
-rootelement.appendChild(hestitlenlogo);
+hesmain.appendChild(hestitlenlogo);
 hestitlenlogo.appendChild(hestitle);
 const heslogo = document.createElement("img");
 hestitlenlogo.appendChild(heslogo);
