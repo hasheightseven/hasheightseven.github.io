@@ -6,8 +6,8 @@ hestabtitle.style.letterSpacing = "8%";
 // html element bgColor
 document.documentElement.style.background = "#000";
 // body bgColor & color
-document.body.style.background = "#000";
-document.body.style.color = "#fff";
+document.body.style.background = "#0000026";
+document.body.style.color = "#ffffff87";
 
 import { hesmain } from "./hesmain.js" 
 hesmain.style.fontSize = "2.6em";
@@ -17,7 +17,8 @@ document.body.appendChild(hesmain);
 
 const hestitlenlogo = document.createElement("div");
 const hestitle = document.createElement("h1");
-hestitle.textContent = nota;
+hestitle.textContent = hes;
+hestitle.style.color = "#ffffff87";
 hestitle.style.fontSize = "26px";
 hesmain.appendChild(hestitlenlogo);
 hestitlenlogo.appendChild(hestitle);
