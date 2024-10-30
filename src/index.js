@@ -1,4 +1,6 @@
 const hes = string("#eightseven");
+hes.style.textTransform = "uppercase";
+hes.style.fontSize = "300%";
 document.body.appendChild(hes);
 
 
