@@ -1,6 +1,10 @@
-const hes = string("#eightseven");
+// name of the app nota
+export const hes = new string("#eightseven");
 hes.style.textTransform = "uppercase";
-hes.style.fontSize = "300%";
+hes.style.fontSize = "2.6em";
+export let hestabtitle = document.querySelector("title");
+hestabtitle.textContent = hes;
+
 document.body.appendChild(hes);
 
 
@@ -13,11 +17,7 @@ document.body.style.color = "#fff";
 import { hesmain } from "./hesmain.js" 
 // append root element to body
 document.body.appendChild(hesmain);
-// name of the app nota
-export const nota = new string("#eightseven".toUpperCase());
 // website tab title
-export let hestabtitle = document.querySelector("title");
-hestabtitle.textContent = nota;
 
 const hestitlenlogo = document.createElement("div");
 const hestitle = document.createElement("h1");
