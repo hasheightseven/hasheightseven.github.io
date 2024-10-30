@@ -1,13 +1,10 @@
 // name of the app nota
-export const hes = new string("#eightseven");
+export const hes = new String("#eightseven");
 hes.style.textTransform = "uppercase";
 hes.style.fontSize = "2.6em";
-export let hestabtitle = document.querySelector("title");
+let hestabtitle = document.querySelector("title");
 hestabtitle.textContent = hes;
-
 document.body.appendChild(hes);
-
-
 // html element bgColor
 document.documentElement.style.background = "#000";
 // body bgColor & color
