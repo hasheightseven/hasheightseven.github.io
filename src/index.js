@@ -2,7 +2,7 @@
 export const hes = new String("#eightseven".toUpperCase());
 let hestabtitle = document.querySelector("title");
 hestabtitle.textContent = hes;
-document.body.appendChild(hes);
+document.body.appendChild(`<h1 id="hes-title-logo"><strong>hes</strong></h1>`);
 // html element bgColor
 document.documentElement.style.background = "#000";
 // body bgColor & color
