@@ -1,3 +1,7 @@
+const hes = string("#eightseven");
+document.body.appendChild(hes);
+
+
 // html element bgColor
 document.documentElement.style.background = "#000";
 // body bgColor & color
