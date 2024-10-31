@@ -25,9 +25,9 @@ function getRandomEmoji() {
   const emojis = ["🍕", "🌮", "🍣", "🍩", "🍒", "🌈", "🚀", "🌎", "🎉", "💥"];
   return emojis[Math.floor(Math.random() * emojis.length)];
 }
-
+  const emojiText = document.createElement("h1");
+main.appendChild(emojiText);
 function setRandomEmojiBackground() {
-  const emojiText = document.getElementById("emojiText");
   const randomEmoji = getRandomEmoji();
   emojiText.style.backgroundImage = `repeating-linear-gradient(45deg, ${randomEmoji} 0, ${randomEmoji} 20%)`;
 }
