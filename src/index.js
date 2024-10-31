@@ -1,12 +1,8 @@
 const nota = new String("#eightseven".toUpperCase());
+
 const bgImage = "/assets/media/Bg-Img-HES.png";
-document.body.style.backgroundImage = bgImage;
-if(screen.availWidth <<< "435") {
-    document.body.textContent = nota;
-    document.body.style.width = screen.availWidth;
-    document.body.style.height = screen.availHeight;
-    document.body.overflowX = "hidden";
-}
+document.body.style.background = "url(bgImage)";
+
 const main = document.createElement("main");
 document.body.appendChild(main);
 
