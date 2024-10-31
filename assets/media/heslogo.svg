@@ -9,27 +9,7 @@
 	  <circle cx="100" cy="50" r="34.5" fill="#112692" />
 	  <circle cx="100" cy="150" r="34.5" fill="#112692" />
 
-	<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
-  <!-- Define 7 parallelograms with different positions and colors -->
-  <polygon points="30,10 130,10 100,60 0,60" fill="#4CAF50" />
-  <polygon points="50,30 150,30 120,80 20,80" fill="#FF5722" />
-  <polygon points="70,50 170,50 140,100 40,100" fill="#2196F3" />
-  <polygon points="90,70 190,70 160,120 60,120" fill="#9C27B0" />
-  <polygon points="110,90 210,90 180,140 80,140" fill="#FFEB3B" />
-  <polygon points="130,110 230,110 200,160 100,160" fill="#FF9800" />
-  <polygon points="150,130 250,130 220,180 120,180" fill="#673AB7" />
-</svg>
-<svg width="400" height="220" xmlns="http://www.w3.org/2000/svg">
-  <!-- Define 8 parallelograms with different positions and colors -->
-  <polygon points="30,10 130,10 100,60 0,60" fill="#4CAF50" />
-  <polygon points="50,30 150,30 120,80 20,80" fill="#FF5722" />
-  <polygon points="70,50 170,50 140,100 40,100" fill="#2196F3" />
-  <polygon points="90,70 190,70 160,120 60,120" fill="#9C27B0" />
-  <polygon points="110,90 210,90 180,140 80,140" fill="#FFEB3B" />
-  <polygon points="130,110 230,110 200,160 100,160" fill="#FF9800" />
-  <polygon points="150,130 250,130 220,180 120,180" fill="#673AB7" />
-  <polygon points="170,150 270,150 240,200 140,200" fill="#E91E63" />
-</svg>
-  <text x="150" y="125" font-size="26" text-anchor="middle" fill="white">#EightSeven</text>
+
+  <text x="250" y="100" font-size="26" text-anchor="middle" fill="white">#EightSeven</text>
 
 </svg>
