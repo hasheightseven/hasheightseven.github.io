@@ -11,6 +11,9 @@ document.body.appendChild(main);
 //main.addEventListener("load", () => {
     main.setAttribute("width", screen.availWidth);
     main.setAttribute("height", screen.availHeight);
+    main.style.backgroundColor = "#112";
+    main.style.color = "#042995";
+    
     //main.setAttribute("background-color") = "rgba(126,126,126,0.5)";
     
 //});
