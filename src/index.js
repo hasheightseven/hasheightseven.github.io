@@ -1,5 +1,5 @@
 const nota = new String("#eightseven".toUpperCase());
-const bgImage = "/assets/media/HashEighSeven-bg-img.heic";
+const bgImage = "/assets/media/Bg-Img-HES.png";
 document.body.style.backgroundImage = bgImage;
 if(screen.availWidth <<< "435") {
     document.body.textContent = nota;
