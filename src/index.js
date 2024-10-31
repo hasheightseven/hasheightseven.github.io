@@ -18,3 +18,19 @@ main.addEventListener("load", () => {
 const logoimg = document.createElement("div");
 logoimg.appendChild(fs.read("/assets/media/heslogo.svg"));
 main.appendChild(logoimg);
+
+
+
+function getRandomEmoji() {
+  const emojis = ["🍕", "🌮", "🍣", "🍩", "🍒", "🌈", "🚀", "🌎", "🎉", "💥"];
+  return emojis[Math.floor(Math.random() * emojis.length)];
+}
+
+function setRandomEmojiBackground() {
+  const emojiText = document.getElementById("emojiText");
+  const randomEmoji = getRandomEmoji();
+  emojiText.style.backgroundImage = `repeating-linear-gradient(45deg, ${randomEmoji} 0, ${randomEmoji} 20%)`;
+}
+
+// Set a random emoji background on load
+window.onload = setRandomEmojiBackground;
