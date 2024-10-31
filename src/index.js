@@ -21,7 +21,7 @@ document.body.appendChild(main);
 //});
 
 const logoimg = document.createElement("div");
-logoimg.appendChild(fs.read("/assets/media/heslogo.svg"));
+logoimg.appendChild(fs.read("/assets/media/Bg-Img-HES.png"));
 //main.appendChild(logoimg);
 
 
