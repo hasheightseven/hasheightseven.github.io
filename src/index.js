@@ -11,9 +11,9 @@ document.body.appendChild(main);
 //main.addEventListener("load", () => {
     main.setAttribute("width", screen.availWidth);
     main.setAttribute("height", screen.availHeight);
-    main.setAttribute("background-color") = "rgba(126,126,126,0.5)";
+    //main.setAttribute("background-color") = "rgba(126,126,126,0.5)";
     
-});
+//});
 
 const logoimg = document.createElement("div");
 logoimg.appendChild(fs.read("/assets/media/heslogo.svg"));
