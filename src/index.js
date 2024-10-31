@@ -26,6 +26,7 @@ function getRandomEmoji() {
   return emojis[Math.floor(Math.random() * emojis.length)];
 }
   const emojiText = document.createElement("h1");
+  emojiText.textContent = nota;
 main.appendChild(emojiText);
 function setRandomEmojiBackground() {
   const randomEmoji = getRandomEmoji();
