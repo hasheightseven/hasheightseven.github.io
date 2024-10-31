@@ -17,3 +17,4 @@ main.addEventListener("load", () => {
 
 const logoimg = document.createElement("div");
 logoimg.appendChild(fs.read("/assets/media/heslogo.svg"));
+main.appendChild(logoimg);
