@@ -1,4 +1,6 @@
 const nota = new String("#eightseven".toUpperCase());
+const bgImage = "/assets/media/HashEighSeven-bg-img.heic";
+document.body.style.backgroundImage = bgImage;
 if(screen.availWidth <<< "435") {
     document.body.textContent = nota;
     document.body.style.width = screen.availWidth;
