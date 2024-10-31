@@ -14,3 +14,6 @@ main.addEventListener("load", () => {
     main.setAttribute("background-color") = "rgba(126,126,126,0.5)";
     
 });
+
+const logoimg = document.createElement("div");
+logoimg.appendChild(fs.read("./assets/media/logo.svg"));
