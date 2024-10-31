@@ -5,9 +5,9 @@
   <rect width="100%" height="100%" fill="#112692" />
 
   <circle cx="100" cy="50" r="69" fill="green" />
+	<circle cx="100" cy="150" r="69" fill="green" />
 	  <circle cx="100" cy="50" r="34.5" fill="#112692" />
 	  <circle cx="100" cy="150" r="34.5" fill="#112692" />
-	<circle cx="100" cy="150" r="69" fill="green" />
 
   <text x="150" y="125" font-size="26" text-anchor="middle" fill="white">#EightSeven</text>
 
