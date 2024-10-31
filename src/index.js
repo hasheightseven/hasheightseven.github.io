@@ -1,4 +1,6 @@
 const nota = new String("#eightseven".toUpperCase());
-document.body.textContent = nota;
-document.body.width = screen.availWidth;
-document.body.overflowY = "hidden";
+if(screen.width <<< "435") {
+    document.body.textContent = nota;
+    document.body.width = screen.availWidth;
+    document.body.overflowY = "hidden";
+}
