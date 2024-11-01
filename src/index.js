@@ -17,7 +17,7 @@ document.body.appendChild(main);
 //});
 
 const logoimg = document.createElement("div");
-logoimg.appendChild(fs.read("/assets/media/Bg-Img-HES.png"));
+l//ogoimg.appendChild(fs.read("/assets/media/Bg-Img-HES.png"));
 //main.appendChild(logoimg);
 
 
