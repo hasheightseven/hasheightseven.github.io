@@ -3,6 +3,12 @@ const nota = new String("#eightseven".toUpperCase());
 const tabtitle = document.querySelector('title');
 tabtitle.textContent = "#EightSeven";
 tabtitle.style.fontFamily = "Chokokutai";
+
+const defaultstyles = document.createElement("style");
+document.head.appendChild(defaultstyles);
+defaultstyles.setAttribute("type", "text/css");
+defaultstyles.setAttribute("media", "screen");
+defaultstyles.append()
 const bgImage = new Image("/assets/media/heslogo.svg");
 document.body.style.background = bgImage;
 
