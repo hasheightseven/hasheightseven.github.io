@@ -1,7 +1,7 @@
 const nota = new String("#eightseven".toUpperCase());
 
 const tabtitle = document.querySelector('title');
-tabtitle.textContent = "#EightSSeven";
+tabtitle.textContent = "#EightSeven";
 tabtitle.style.fontFamily = "Chokokutai";
 const bgImage = new Image("/assets/media/heslogo.svg");
 document.body.style.background = bgImage;
