@@ -6,12 +6,8 @@ tabtitle.style.fontFamily = "Chokokutai";
 const bgImage = new Image("/assets/media/heslogo.svg");
 document.body.style.background = bgImage;
 
-const logosvg = document.createElementNS(SVGAElement, async () => {
-  await fetch('/assets/media/heslogo.svg');
-});
 const main = document.createElement("main");
 document.body.appendChild(main);
-main.appendChild(logosvg);
 
 //main.addEventListener("load", () => {
     //main.setAttribute("width", screen.availWidth);
