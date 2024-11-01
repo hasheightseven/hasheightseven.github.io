@@ -4,7 +4,7 @@ const tabtitle = document.querySelector('title');
 tabtitle.textContent = "#EightSSeven";
 tabtitle.style.fontFamily = "Chokokutai";
 const bgImage = new Image("/assets/media/heslogo.svg");
-document.body.style.background = "url(bgImage)";
+document.body.style.background = bgImage;
 
 const main = document.createElement("main");
 document.body.appendChild(main);
