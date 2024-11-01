@@ -10,6 +10,6 @@
 	  <circle cx="100" cy="150" r="34.5" fill="#112692" />
 
 
-  <text x="169" y="125" font-size="45" text-anchor="middle" fill="#112692">#EightSeven</text>
+  <text x="125" y="112.5" font-size="32" text-anchor="middle" fill="#112692">#EightSeven</text>
 
 </svg>
