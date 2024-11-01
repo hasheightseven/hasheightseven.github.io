@@ -1,7 +1,7 @@
-const nota = new String("#eightseven".toUpperCase());
+const nota = new String("#8seven".toUpperCase());
 
 const tabtitle = document.querySelector('title');
-tabtitle.textContent = "#EightSeven";
+tabtitle.textContent = "#8Seven";
 tabtitle.style.fontFamily = "Chokokutai";
 
 const defaultstyles = document.createElement("style");
