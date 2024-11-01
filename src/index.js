@@ -1,5 +1,8 @@
 const nota = new String("#eightseven".toUpperCase());
 
+const tabtitle = document.querySelector('title');
+tabtitle.textContent = "#EightSSeven";
+tabtitle.style.letterSpacing = '2.6px';
 const bgImage = "/assets/media/Bg-Img-HES.png";
 document.body.style.background = "url(bgImage)";
 
