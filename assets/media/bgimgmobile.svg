@@ -1,32 +1,7 @@
-<!-- <svg version="1.1"
+<svg version="1.1"
 	width="430" height="932"
 	xmlns="http://www.w3.org/2000/svg">
 	<rect width="100%" height="100%" fill="#87ceeb" />
 	
     <circle cx="26" cy="26" r="26" />
-</svg> -->
-
-<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
-  <!-- Sky -->
-  <rect width="100%" height="100%" fill="#87CEEB" />
-  
-  <!-- Sun -->
-  <circle cx="40" cy="40" r="20" fill="#f1f1f1" />
-  
-  <!-- Houses -->
-  <rect x="50" y="120" width="40" height="40" fill="#ffcccb" />
-  <polygon points="50,120 70,100 90,120" fill="#8B4513" />
-  
-  <rect x="110" y="130" width="40" height="30" fill="#add8e6" />
-  <polygon points="110,130 130,110 150,130" fill="#654321" />
-  
-  <!-- Trees -->
-  <rect x="25" y="140" width="10" height="20" fill="#8B4513" />
-  <circle cx="30" cy="130" r="15" fill="green" />
-  
-  <rect x="170" y="145" width="10" height="25" fill="#8B4513" />
-  <circle cx="175" cy="130" r="20" fill="green" />
-  
-  <!-- Ground -->
-  <rect y="170" width="100%" height="30" fill="#228B22" />
 </svg>
