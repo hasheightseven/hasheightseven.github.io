@@ -13,7 +13,3 @@
 	<circle cx="75" cy="100" r="8.5" fill="#112692" />
 	<text x="126" y="126" font-size="32" font-family="Chokokutai" text-anchor="middle" fill="#f1f1f1">7</text>
 </svg>
-
-font-family: "Chokokutai", system-ui;
-  font-weight: 400;
-  font-style: normal;
