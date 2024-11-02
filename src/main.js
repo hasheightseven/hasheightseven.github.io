@@ -1,23 +1,7 @@
-const nota = new String("#8seven".toUpperCase());
+import { nota, tabtitle } from './titles.js';
+tabtitle.textContent = nota;
 
 const bgImage = "url(./assets/media/heslogo.svg)";
-
-const defaultstyles = document.createElement("style");
-document.head.appendChild(defaultstyles);
-defaultstyles.setAttribute("type", "text/css");
-defaultstyles.setAttribute("media", "screen");
-defaultstyles.innerText = `
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}`;
-
-const tabtitle = document.querySelector('title');
-tabtitle.textContent = "#8Seven";
-tabtitle.style.fontFamily = "Chokokutai";
-
-// document.body.style.background = bgImage;
 
 const main = document.createElement("main");
 //document.body.appendChild(main);
@@ -39,6 +23,7 @@ logoimg.innerHTML = bgImage;
 
 const emojiText = document.createElement("h1");
 emojiText.textContent = nota;
+emojiText.style.fontFamily = "Chokokutai, Arial, Sans-Serif System-UI";
 emojiText.style.color = '#001928';
 emojiText.style.alignSelf = 'flex-end';
 
