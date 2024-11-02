@@ -4,7 +4,7 @@ tabtitle.textContent = nota;
 export { nota, tabtitle }
 
 const logoimg = document.createElement("div");
-logoimg.innerHTML = bgImage;
+//logoimg.innerHTML = bgImage;
 //main.appendChild(logoimg);
 
 const emojiText = document.createElement("h1");
@@ -14,7 +14,7 @@ emojiText.style.color = '#001928';
 emojiText.style.colorScheme = 'revert-layer';
 emojiText.style.alignSelf = 'flex-end';
 
-main.appendChild(emojiText);
+//main.appendChild(emojiText);
 
 function getRandomEmoji() {
   const emojis = ["🍕", "🌮", "🍣", "🍩", "🍒", "🌈", "🚀", "🌎", "🎉", "💥"];
@@ -27,4 +27,4 @@ function setRandomEmojiBackground() {
 }
 
 // Set a random emoji background on load
-setRandomEmojiBackground();
+//setRandomEmojiBackground();
