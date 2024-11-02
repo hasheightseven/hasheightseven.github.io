@@ -19,8 +19,8 @@ const bgImage = "url(./assets/media/heslogo.svg)";
 
 const main = document.createElement("main");
 document.body.appendChild(main);
-main.style.width = window.innerWidth;
-main.style.height = window.innerHeight;
+main.style.width = screen.availWidth;
+main.style.height = screen.availHeight;
 main.style.backgroundImage = bgImage;
 main.style.backgroundRepeat = "no-repeat";
 main.style.backgroundSize = "cover";
