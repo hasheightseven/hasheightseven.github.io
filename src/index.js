@@ -16,6 +16,8 @@ const main = document.createElement("main");
 document.body.appendChild(main);
 // main.style.backgroundRepeat = "no-repeat";
 main.style.backgroundImage = bgImage;
+main.style.margin = '0';
+main.style.padding = '0.26';
 const logoimg = document.createElement("div");
 logoimg.innerHTML = `<svg version="1.1"
 	width="150" height="150"
