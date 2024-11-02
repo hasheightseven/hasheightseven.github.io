@@ -9,12 +9,11 @@ document.head.appendChild(defaultstyles);
 defaultstyles.setAttribute("type", "text/css");
 defaultstyles.setAttribute("media", "screen");
 defaultstyles.append()
-const bgImage = new URL("./assets/media/heslogo.svg");
-document.body.style.background = bgImage;
+document.body.style.background = "url(./assets/media/heslogo.svg)";
 
 const main = document.createElement("main");
 document.body.appendChild(main);
-main.style.backgroundImage = bgImage;
+main.style.backgroundImage = "url(./assets/media/heslogo.svg)";
 const logoimg = document.createElement("div");
 logoimg.innerHTML = `<svg version="1.1"
 	width="150" height="150"
