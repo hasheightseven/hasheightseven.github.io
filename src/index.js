@@ -1,6 +1,2 @@
-
-document.body.addEventListener("load", () => {
-
-  import defaultstyles from './styles.js';
-  import main from './main.js';
-});
+import defaultstyles from './styles.js';
+import main from './main.js';
