@@ -25,9 +25,10 @@ const emojiText = document.createElement("h1");
 emojiText.textContent = nota;
 emojiText.style.fontFamily = "Chokokutai, Arial, Sans-Serif System-UI";
 emojiText.style.color = '#001928';
+emojiText.style.backgroundBlendMode = 'revert-layer';
 emojiText.style.alignSelf = 'flex-end';
 
-// main.appendChild(emojiText);
+main.appendChild(emojiText);
 
 function getRandomEmoji() {
   const emojis = ["🍕", "🌮", "🍣", "🍩", "🍒", "🌈", "🚀", "🌎", "🎉", "💥"];
