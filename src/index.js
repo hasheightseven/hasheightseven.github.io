@@ -23,6 +23,7 @@ function getRandomEmoji() {
 }
 const emojiText = document.createElement("h1");
 emojiText.textContent = nota;
+emojiText.style.width = '1000px';
 main.appendChild(emojiText);
 
 function setRandomEmojiBackground() {
