@@ -51,6 +51,7 @@ logoimg.innerHTML = `<svg version="1.1"
 
 const emojiText = document.createElement("h1");
 emojiText.textContent = nota;
+emojiText.style.color = '#001928';
 
 main.appendChild(emojiText);
 
