@@ -9,12 +9,13 @@ document.head.appendChild(defaultstyles);
 defaultstyles.setAttribute("type", "text/css");
 defaultstyles.setAttribute("media", "screen");
 defaultstyles.append()
-document.body.style.background = "url(./assets/media/heslogo.svg)";
+const bgImage = "url(./assets/media/heslogocopy.svg)";
+document.body.style.background = bgImage;
 
 const main = document.createElement("main");
 document.body.appendChild(main);
 main.style.backgroundRepeat = "no-repeat";
-main.style.backgroundImage = "url(./assets/media/heslogo.svg)";
+main.style.backgroundImage = bgImage;
 const logoimg = document.createElement("div");
 logoimg.innerHTML = `<svg version="1.1"
 	width="150" height="150"
