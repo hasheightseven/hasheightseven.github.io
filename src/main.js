@@ -19,9 +19,7 @@ main.style.justifyContent = 'center';
 
 document.body.appendChild(main);
 
-import { loginform, signupform, contactform } from "./forms.js";
 
-main.appendChild(loginform);
 
 const copyrightelem = document.createElement('meta');
 copyrightelem.setAttribute('name', 'copyright');
