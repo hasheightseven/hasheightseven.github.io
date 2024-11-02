@@ -16,7 +16,7 @@ const main = document.createElement("main");
 document.body.appendChild(main);
 
 const logoimg = document.createElement("div");
-logoimg.textContent = `<svg version="1.1"
+logoimg.innerHTML = `<svg version="1.1"
 	width="150" height="150"
 	xmlns="http://www.w3.org/2000/svg">
 	<rect width="100%" height="100%" fill="#112692" />
