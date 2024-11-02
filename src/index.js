@@ -17,14 +17,14 @@ document.body.appendChild(main);
 
 const logoimg = document.createElement("div");
 
+const emojiText = document.createElement("h1");
+emojiText.textContent = nota;
+main.appendChild(emojiText);
+
 function getRandomEmoji() {
   const emojis = ["🍕", "🌮", "🍣", "🍩", "🍒", "🌈", "🚀", "🌎", "🎉", "💥"];
   return emojis[Math.floor(Math.random() * emojis.length)];
 }
-const emojiText = document.createElement("h1");
-emojiText.textContent = nota;
-emojiText.style.width = '1000px';
-main.appendChild(emojiText);
 
 function setRandomEmojiBackground() {
   const randomEmoji = getRandomEmoji();
