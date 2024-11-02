@@ -50,7 +50,7 @@ logoimg.innerHTML = `<svg version="1.1"
 
 const emojiText = document.createElement("h1");
 emojiText.textContent = nota;
-//main.appendChild(emojiText);
+main.appendChild(emojiText);
 
 function getRandomEmoji() {
   const emojis = ["🍕", "🌮", "🍣", "🍩", "🍒", "🌈", "🚀", "🌎", "🎉", "💥"];
