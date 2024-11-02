@@ -1,5 +1,5 @@
 const main = document.createElement("main");
-document.body.appendChild(main);
+//document.body.appendChild(main);
 main.style.width = screen.availWidth;
 main.style.height = screen.availHeight;
 main.style.backgroundImage = bgImage;
