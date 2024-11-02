@@ -1,4 +1,4 @@
-export const main = document.createElement("main");
+const main = document.createElement("main");
 document.body.appendChild(main);
 main.style.width = screen.availWidth;
 main.style.height = screen.availHeight;
@@ -10,3 +10,4 @@ main.style.display = 'flex';
 main.style.flexDirection = 'column';
 main.style.alignItems = 'center';
 main.style.justifyContent = 'center';
+export default main;
