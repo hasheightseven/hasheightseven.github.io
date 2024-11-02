@@ -1,4 +1,24 @@
-import { bgImage } from "./index.js";
+const nota = new String("#8seven".toUpperCase());
+
+const bgImage = "url(./assets/media/heslogo.svg)";
+
+const defaultstyles = document.createElement("style");
+document.head.appendChild(defaultstyles);
+defaultstyles.setAttribute("type", "text/css");
+defaultstyles.setAttribute("media", "screen");
+defaultstyles.innerText = `
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}`;
+
+const tabtitle = document.querySelector('title');
+tabtitle.textContent = "#8Seven";
+tabtitle.style.fontFamily = "Chokokutai";
+
+// document.body.style.background = bgImage;
+
 const main = document.createElement("main");
 //document.body.appendChild(main);
 main.style.width = screen.availWidth;
@@ -36,4 +56,7 @@ function setRandomEmojiBackground() {
 
 // Set a random emoji background on load
 setRandomEmojiBackground();
+
+document.head.appendChild(`<meta name="copyright" content="Copyright &COPY; 2024 #8Seven" />`);
+
 export default main;
