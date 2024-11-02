@@ -9,7 +9,7 @@ document.head.appendChild(defaultstyles);
 defaultstyles.setAttribute("type", "text/css");
 defaultstyles.setAttribute("media", "screen");
 defaultstyles.append()
-const bgImage = new URL("/assets/media/heslogo.svg");
+const bgImage = new URL("./assets/media/heslogo.svg");
 document.body.style.background = bgImage;
 
 const main = document.createElement("main");
