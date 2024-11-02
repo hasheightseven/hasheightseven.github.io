@@ -27,7 +27,8 @@ main.style.backgroundSize = "cover";
 main.style.backgroundPosition = "center";
 main.style.display = 'flex';
 main.style.flexDirection = 'column';
-
+main.style.alignItems = 'center';
+main.style.justifyContent = 'center';
 
 
 const logoimg = document.createElement("div");
@@ -50,6 +51,7 @@ logoimg.innerHTML = `<svg version="1.1"
 
 const emojiText = document.createElement("h1");
 emojiText.textContent = nota;
+
 main.appendChild(emojiText);
 
 function getRandomEmoji() {
@@ -63,4 +65,4 @@ function setRandomEmojiBackground() {
 }
 
 // Set a random emoji background on load
-window.onload = setRandomEmojiBackground();
+setRandomEmojiBackground();
