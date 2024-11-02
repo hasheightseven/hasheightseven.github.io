@@ -1,7 +1,7 @@
 import { nota, tabtitle } from './titles.js';
 tabtitle.textContent = nota;
 
-const bgImage = "url(./assets/media/heslogo.svg)";
+const bgImage = "url(./assets/media/hshdkd.svg)";
 
 const main = document.createElement("main");
 //document.body.appendChild(main);
