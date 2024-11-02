@@ -12,6 +12,7 @@ defaultstyles.innerText = `
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }`;
 const bgImage = "url(./assets/media/heslogocopy.svg)";
 // document.body.style.background = bgImage;
