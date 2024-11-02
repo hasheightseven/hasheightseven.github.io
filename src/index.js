@@ -21,7 +21,7 @@ tabtitle.style.fontFamily = "Chokokutai";
 // document.body.style.background = bgImage;
 
 import main from './main.js';
-
+document.body.appendChild(main);
 const logoimg = document.createElement("div");
 logoimg.innerHTML = `<svg version="1.1"
 	width="150" height="150"
