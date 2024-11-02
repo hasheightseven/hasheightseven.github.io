@@ -1,1 +1,12 @@
-export const hesmain = document.createElement("main");
+export const main = document.createElement("main");
+document.body.appendChild(main);
+main.style.width = screen.availWidth;
+main.style.height = screen.availHeight;
+main.style.backgroundImage = bgImage;
+main.style.backgroundRepeat = "no-repeat";
+main.style.backgroundSize = "cover";
+main.style.backgroundPosition = "center";
+main.style.display = 'flex';
+main.style.flexDirection = 'column';
+main.style.alignItems = 'center';
+main.style.justifyContent = 'center';

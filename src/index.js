@@ -17,19 +17,7 @@ defaultstyles.innerText = `
 const bgImage = "url(./assets/media/heslogo.svg)";
 // document.body.style.background = bgImage;
 
-const main = document.createElement("main");
-document.body.appendChild(main);
-main.style.width = screen.availWidth;
-main.style.height = screen.availHeight;
-main.style.backgroundImage = bgImage;
-main.style.backgroundRepeat = "no-repeat";
-main.style.backgroundSize = "cover";
-main.style.backgroundPosition = "center";
-main.style.display = 'flex';
-main.style.flexDirection = 'column';
-main.style.alignItems = 'center';
-main.style.justifyContent = 'center';
-
+import main from './main';
 
 const logoimg = document.createElement("div");
 logoimg.innerHTML = `<svg version="1.1"
