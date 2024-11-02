@@ -1,8 +1,7 @@
 const nota = new String("#8seven".toUpperCase());
 
-const tabtitle = document.querySelector('title');
-tabtitle.textContent = "#8Seven";
-tabtitle.style.fontFamily = "Chokokutai";
+
+const bgImage = "url(./assets/media/heslogo.svg)";
 
 const defaultstyles = document.createElement("style");
 document.head.appendChild(defaultstyles);
@@ -14,7 +13,11 @@ defaultstyles.innerText = `
   padding: 0;
   box-sizing: border-box;
 }`;
-const bgImage = "url(./assets/media/heslogo.svg)";
+
+const tabtitle = document.querySelector('title');
+tabtitle.textContent = "#8Seven";
+tabtitle.style.fontFamily = "Chokokutai";
+
 // document.body.style.background = bgImage;
 
 import main from './main';
@@ -56,3 +59,4 @@ function setRandomEmojiBackground() {
 
 // Set a random emoji background on load
 setRandomEmojiBackground();
+document.head.appendChild("<meta name="copyright" content="Copyright &COPY; 2024 #8Seven" />");
