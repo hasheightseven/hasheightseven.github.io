@@ -42,6 +42,9 @@ function setRandomEmojiBackground() {
 // Set a random emoji background on load
 setRandomEmojiBackground();
 
-document.head.appendChild(`<meta name="copyright" content="Copyright &COPY; 2024 #8Seven" />`);
+const copyrightelem = document.createElement('meta');
+copyrightelem.setAttribute('name', 'copyright');
+copyrightelem.setAttribute('content', 'Copyright &COPY; 2024 #8Seven')
+document.head.appendChild(copyrightelem);
 
 export default main;
