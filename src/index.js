@@ -13,6 +13,7 @@ document.body.style.background = "url(./assets/media/heslogo.svg)";
 
 const main = document.createElement("main");
 document.body.appendChild(main);
+main.style.backgroundRepeat = "no-repeat";
 main.style.backgroundImage = "url(./assets/media/heslogo.svg)";
 const logoimg = document.createElement("div");
 logoimg.innerHTML = `<svg version="1.1"
