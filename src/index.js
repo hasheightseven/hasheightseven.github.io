@@ -8,7 +8,11 @@ const defaultstyles = document.createElement("style");
 document.head.appendChild(defaultstyles);
 defaultstyles.setAttribute("type", "text/css");
 defaultstyles.setAttribute("media", "screen");
-defaultstyles.append()
+defaultstyles.innerText = `
+* {
+  margin: 0;
+  padding: 0;
+}`;
 const bgImage = "url(./assets/media/heslogocopy.svg)";
 // document.body.style.background = bgImage;
 
