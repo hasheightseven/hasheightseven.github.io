@@ -52,6 +52,7 @@ logoimg.innerHTML = `<svg version="1.1"
 const emojiText = document.createElement("h1");
 emojiText.textContent = nota;
 emojiText.style.color = '#001928';
+emojiText.style.alignSelf = 'flex-end';
 
 main.appendChild(emojiText);
 
