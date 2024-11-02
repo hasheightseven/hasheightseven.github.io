@@ -9,7 +9,7 @@
 	<circle cx="75" cy="100" r="26" fill="#112692" />
 	<circle cx="75" cy="50" r="16" fill="#f1f1f1" />
 	<circle cx="75" cy="100" r="16" fill="#f1f1f1" />
-	<circle cx="75" cy="50" r="4" fill="#112692" >#</circle>
-	<circle cx="75" cy="100" r="4" fill="#112692" />
+	<circle cx="75" cy="50" r="8" fill="#112692" >#</circle>
+	<circle cx="75" cy="100" r="8" fill="#112692" />
 <!-- 	<text x="250" y="108" font-size="32" text-anchor="middle" fill="#f1f1f1">seven</text> -->
 </svg>
