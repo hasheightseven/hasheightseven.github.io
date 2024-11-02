@@ -1,3 +1,4 @@
+import { bgImage } from "./index.js";
 const main = document.createElement("main");
 //document.body.appendChild(main);
 main.style.width = screen.availWidth;
