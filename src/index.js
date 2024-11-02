@@ -19,10 +19,17 @@ const bgImage = "url(./assets/media/heslogo.svg)";
 
 const main = document.createElement("main");
 document.body.appendChild(main);
-// main.style.backgroundRepeat = "no-repeat";
+main.style.width = window.innerWidth;
+main.style.height = window.innerHeight;
 main.style.backgroundImage = bgImage;
-main.style.margin = '0';
-main.style.padding = '0.26';
+main.style.backgroundRepeat = "no-repeat";
+main.style.backgroundSize = "cover";
+main.style.backgroundPosition = "center";
+main.style.display = 'flex';
+main.style.flexDirection = 'column';
+
+
+
 const logoimg = document.createElement("div");
 logoimg.innerHTML = `<svg version="1.1"
 	width="150" height="150"
