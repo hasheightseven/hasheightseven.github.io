@@ -27,7 +27,7 @@ emojiText.style.fontFamily = "Chokokutai, Arial, Sans-Serif System-UI";
 emojiText.style.color = '#001928';
 emojiText.style.alignSelf = 'flex-end';
 
-main.appendChild(emojiText);
+// main.appendChild(emojiText);
 
 function getRandomEmoji() {
   const emojis = ["🍕", "🌮", "🍣", "🍩", "🍒", "🌈", "🚀", "🌎", "🎉", "💥"];
