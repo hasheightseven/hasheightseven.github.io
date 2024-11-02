@@ -14,7 +14,7 @@ defaultstyles.innerText = `
   padding: 0;
   box-sizing: border-box;
 }`;
-const bgImage = "url(./assets/media/heslogocopy.svg)";
+const bgImage = "url(./assets/media/heslogo.svg)";
 // document.body.style.background = bgImage;
 
 const main = document.createElement("main");
@@ -39,11 +39,11 @@ logoimg.innerHTML = `<svg version="1.1"
 	<circle cx="75" cy="100" r="8.5" fill="#112692" />
 	<text x="126" y="126" font-size="32" font-family="Chokokutai" text-anchor="middle" fill="#f1f1f1">7</text>
 </svg>`;
-main.appendChild(logoimg);
+//main.appendChild(logoimg);
 
 const emojiText = document.createElement("h1");
 emojiText.textContent = nota;
-main.appendChild(emojiText);
+//main.appendChild(emojiText);
 
 function getRandomEmoji() {
   const emojis = ["🍕", "🌮", "🍣", "🍩", "🍒", "🌈", "🚀", "🌎", "🎉", "💥"];
