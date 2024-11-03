@@ -12,7 +12,7 @@ userinput.setAttribute("type", "text");
 
 const passinput = document.createElement("input");
 passinput.setAttribute("type", "password");
-for (i in { loginform, signupform, contactform }) {
+for (let i in { loginform, signupform, contactform }) {
     i.appendChild(label);
     i.appendChild(userinput);
     i.appendChild(passinput);
