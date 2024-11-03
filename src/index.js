@@ -1,5 +1,4 @@
-const fontchokokutai = document.createElement('style');
-fontchokokutai.innerText = `@import url('https://fonts.googleapis.com/css2?family=Chokokutai&display=swap');`;
+import fonts from './fonts.js';
 import defaultstyles from './styles.js';
 if (defaultstyles.hasChildNodes) {
     console.log(`styles defaults has child nodes`);
