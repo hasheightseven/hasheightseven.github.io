@@ -19,7 +19,7 @@ h1 {
 form {
   width: 100%;
   height: 100%;
-  background-color: #f1f1f126;
+  background-color: #f1f1f154;
   color: #112692;
   padding: 2.6em;
 }
