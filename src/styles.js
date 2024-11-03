@@ -8,6 +8,20 @@ defaultstyles.innerText = `
   padding: 0;
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Chokokutai&display=swap');
+
+h1 {
+  font-family: chokokutai;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 150%;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f126;
+  color: #112692;
+  padding: 2.6em;
+}
 `;
 export default defaultstyles;
