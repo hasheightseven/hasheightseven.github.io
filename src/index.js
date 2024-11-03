@@ -2,6 +2,7 @@ import fonts from './fonts.js';
 import defaultstyles from './styles.js';
 if (defaultstyles.hasChildNodes) {
     console.log(`styles defaults has child nodes`);
+    console.log(defaultstyles.childNodes);
 }
 import main from './main.js';
 import container from "./container.js";
