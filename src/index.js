@@ -1,4 +1,4 @@
-import fonts from './fonts.js';
+import './fonts.js' as fonts;
 import defaultstyles from './styles.js';
 if (defaultstyles.hasChildNodes) {
     console.log(`styles defaults has child nodes`);
