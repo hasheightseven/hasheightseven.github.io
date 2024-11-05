@@ -18,11 +18,15 @@ h1 {
 }
 
 form {
-  width: 80%;
-  height: 80%;
+  width: 260%;
+  height: 26%;
   background-color: #f1f1f154;
   color: #112692;
   padding: 2.6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 `;
 export default defaultstyles;
