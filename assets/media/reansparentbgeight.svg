@@ -4,7 +4,7 @@
 	<rect width="100%" height="100%" fill="transparent" />
 <!-- 	<text x="75" y="108" font-size="32" text-anchor="middle" fill="transparent">#</text> -->
 	<circle cx="45" cy="45" r="39" fill="rgb(0,0,26)" />
-	<circle cx="100" cy="100" r="39" fill="rgb(0,0,8)" />
+	<circle cx="100" cy="100" r="39" fill="rgb(0,0,26)" />
 	<circle cx="34.5" cy="34.5" r="29" fill="rgb(11,26,92)" />
 	<circle cx="100" cy="100" r="29" fill="rgb(11,26,92)" />
 <!-- 	<circle cx="75" cy="50" r="26" fill="rgb(11,26,92)" />
@@ -12,6 +12,8 @@
 	<circle cx="75" cy="50" r="16" fill="rgb(0,0,8)" />
 	<circle cx="75" cy="100" r="16" fill="rgb(0,0,8)" />
 	<circle cx="75" cy="50" r="8" fill="rgb(11,26,92)" >#</circle>
+	<circle cx="75" cy="100" r="8" fill="rgb(11,26,92)" />
+	<text x="250" y="108" font-size="32" text-anchor="middle" fill="rgb(0,0,8)">#8Seven</text>
 	<circle cx="75" cy="100" r="8" fill="rgb(11,26,92)" /> -->
-<!-- 	<text x="250" y="108" font-size="32" text-anchor="middle" fill="rgb(0,0,8)">seven</text> -->
+	<text x="34.5" y="34.5" font-size="32" text-anchor="middle" fill="rgb(0,0,26)">#8Seven</text>
 </svg>
