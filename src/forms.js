@@ -18,7 +18,7 @@ loginform.appendChild(label);
 loginform.appendChild(userinput);
 loginform.appendChild(passinput);
 });
-signupform.appendChild("load", () => {
+signupform.addEventListener("load", () => {
 signupform.appendChild(label);
 signupform.appendChild(userinput);
 signupform.appendChild(passinput);
