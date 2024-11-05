@@ -15,5 +15,5 @@
 	<circle cx="75" cy="100" r="8" fill="rgb(11,26,92)" />
 	<text x="250" y="108" font-size="32" text-anchor="middle" fill="rgb(0,0,8)">#8Seven</text>
 	<circle cx="75" cy="100" r="8" fill="rgb(11,26,92)" /> -->
-	<text x="75" y="75" font-size="26" text-anchor="middle" fill="rgb(95,04,29)">#8Seven</text>
+	<text x="75" y="75" font-size="26" text-anchor="middle" fill="rgb(95,04,29)">#87</text>
 </svg>
