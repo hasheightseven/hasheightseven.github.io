@@ -18,8 +18,6 @@ h1 {
 }
 
 form {
-  width: 26%;
-  height: 26%;
   background-color: radial-gradient(circle, #f1f1f154, #11269245);
   color: #112692;
   padding: 2.6em;

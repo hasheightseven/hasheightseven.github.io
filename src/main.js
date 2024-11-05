@@ -7,7 +7,7 @@ const main = document.createElement("main");
 //document.body.appendChild(main);
 main.style.width = '100vw';
 main.style.height = '100vh';
-main.style.backgroundColor = "#112692";
+main.style.backgroundColor = "rgb(11,26,92)";
 main.style.backgroundImage = bgImage;
 main.style.backgroundRepeat = "no-repeat";
 main.style.backgroundSize = "contain";
