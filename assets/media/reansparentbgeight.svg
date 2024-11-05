@@ -5,7 +5,7 @@
 <!-- 	<text x="75" y="108" font-size="32" text-anchor="middle" fill="transparent">#</text> -->
 	<circle cx="45" cy="45" r="39" fill="rgb(0,11,26)" />
 	<circle cx="100" cy="100" r="39" fill="rgb(0,11,26)" />
-	<circle cx="38" cy="38" r="29" fill="rgb(11,26,92)" />
+	<circle cx="37.75" cy="37.75" r="29" fill="rgb(11,26,92)" />
 	<circle cx="93" cy="93" r="29" fill="rgb(11,26,92)" />
 <!-- 	<circle cx="75" cy="50" r="26" fill="rgb(11,26,92)" />
 	<circle cx="75" cy="100" r="26" fill="rgb(11,26,92)" />
@@ -15,5 +15,5 @@
 	<circle cx="75" cy="100" r="8" fill="rgb(11,26,92)" />
 	<text x="250" y="108" font-size="32" text-anchor="middle" fill="rgb(0,0,8)">#8Seven</text>
 	<circle cx="75" cy="100" r="8" fill="rgb(11,26,92)" /> -->
-	<!-- <text x="34.5" y="34.5" font-size="32" text-anchor="middle" fill="rgb(0,0,26)">#8Seven</text> -->
+	<text x="125" y="125" font-size="32" font-family= "chokokutai" text-anchor="middle" fill="rgb(0,0,26)">#8Seven</text>
 </svg>
