@@ -20,13 +20,13 @@ h1 {
 form {
   width: 260%;
   height: 26%;
-  background-color: #f1f1f154;
+  background-color: radial-gradient(circle, #f1f1f154, #11269245);
   color: #112692;
   padding: 2.6em;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 `;
 export default defaultstyles;
