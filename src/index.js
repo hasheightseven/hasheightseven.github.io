@@ -9,3 +9,4 @@ import container from "./container.js";
 main.appendChild(container);
 import { loginform, signupform, contactform } from "./forms.js";
 container.appendChild(loginform);
+import './popeye.js';
