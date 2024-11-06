@@ -9,7 +9,9 @@ defaultstyles.innerText = `
   box-sizing: border-box;
   writingsuggestions: true;
 }
-
+html, body {
+  background-color: #042995;
+}
 h1 {
   font-family: chokokutai;
   font-weight: 400;
