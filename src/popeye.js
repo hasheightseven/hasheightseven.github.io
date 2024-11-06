@@ -22,3 +22,8 @@ class User(){
         var password, emailAddress;
     }
 }
+
+
+const popeye = 'popeye';
+
+export default popeye
