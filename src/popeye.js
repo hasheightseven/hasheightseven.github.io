@@ -22,4 +22,3 @@ class User(){
         var password, emailAddress;
     }
 }
-}
