@@ -11,5 +11,6 @@ document.head.appendChild(favicon);
 // import main from './main.js';
 // document.body.appendChild(main);
 // import greeting
-import greeting from './greeting.js';
+import greeting, { something } from './greeting.js';
+something();
 document.body.appendChild(greeting);
