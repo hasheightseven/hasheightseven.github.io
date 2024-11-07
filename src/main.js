@@ -1,6 +1,6 @@
 import { nota, tabtitle } from './titles.js';
 tabtitle.textContent = nota;
-
+import defaultstyles from './styles.js';
 const favicon = document.createElement("link");
 favicon.rel = "icon/favicon";
 favicon.href = "/favicon.ico";
