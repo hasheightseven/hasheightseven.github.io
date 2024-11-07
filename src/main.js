@@ -1,6 +1,11 @@
 import { nota, tabtitle } from './titles.js';
 tabtitle.textContent = nota;
 
+const favicon = document.createElement("link");
+favicon.rel = "icon/favicon";
+favicon.href = "/assets/media/favicon.ico";
+document.head.appendChild(favicon);
+
 const bgImage = "url(./assets/media/reansparentbgeight.svg)";
 
 const main = document.createElement("main");
