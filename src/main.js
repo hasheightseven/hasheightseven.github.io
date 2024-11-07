@@ -3,7 +3,7 @@ tabtitle.textContent = nota;
 
 const favicon = document.createElement("link");
 favicon.rel = "icon/favicon";
-favicon.href = "/assets/media/favicon.ico";
+favicon.href = "/favicon.ico";
 document.head.appendChild(favicon);
 
 const bgImage = "url(./assets/media/reansparentbgeight.svg)";
