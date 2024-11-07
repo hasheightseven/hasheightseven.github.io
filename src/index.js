@@ -8,5 +8,8 @@ document.head.appendChild(defaultstyles);
 import favicon from './favicon.js';
 document.head.appendChild(favicon);
 // import main content
-import main from './main.js';
-document.body.appendChild(main);
+// import main from './main.js';
+// document.body.appendChild(main);
+// import greeting
+import greeting from './greeting.js';
+document.body.appendChild(greeting);

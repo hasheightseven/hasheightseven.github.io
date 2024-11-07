@@ -1,4 +1,4 @@
-import { bgImage } from "./defaults";
+import { bgImage } from "./defaults.js";
 
 const main = document.createElement("main");
 //document.body.appendChild(main);
