@@ -1,6 +1,3 @@
-// import fonts
-import { fontchokokutai } from './fonts.js';
-document.head.appendChild(fontchokokutai);
 // import title and tab title query element
 import { nota, tabtitle } from './titles.js';
 tabtitle.textContent = nota;

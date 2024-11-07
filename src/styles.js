@@ -1,3 +1,6 @@
+// import fonts
+import { fontchokokutai } from './fonts.js';
+document.head.appendChild(fontchokokutai);
 const defaultstyles = document.createElement("style");
 // document.head.appendChild(defaultstyles);
 defaultstyles.setAttribute("type", "text/css");
