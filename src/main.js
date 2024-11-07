@@ -1,11 +1,11 @@
-// const bgImage = "url(./assets/media/reansparentbgeight.svg)";
+import { bgImage } from "./defaults";
 
 const main = document.createElement("main");
 //document.body.appendChild(main);
 // main.style.width = 'auto';
 // main.style.height = '100vh';
 //main.style.backgroundColor = "rgb(11,26,92)";
-// main.style.backgroundImage = bgImage;
+main.style.backgroundImage = bgImage;
 // main.style.backgroundRepeat = "no-repeat";
 // main.style.backgroundSize = "contain";
 // main.style.backgroundPosition = "center";
