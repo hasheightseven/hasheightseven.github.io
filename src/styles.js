@@ -1,5 +1,5 @@
 const defaultstyles = document.createElement("style");
-document.head.appendChild(defaultstyles);
+// document.head.appendChild(defaultstyles);
 defaultstyles.setAttribute("type", "text/css");
 defaultstyles.setAttribute("media", "screen");
 defaultstyles.innerText = `
