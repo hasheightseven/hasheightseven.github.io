@@ -1,6 +1,3 @@
-// import react cdns
-import reactnbabel from './hesimports.js';
-reactnbabel();
 // import title and tab title query element
 import { nota, tabtitle } from './titles.js';
 tabtitle.textContent = nota;
