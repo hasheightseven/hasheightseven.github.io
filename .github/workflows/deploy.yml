@@ -32,12 +32,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # user name and email
-      - name: run gh user
-        run: git config user.name ${{ variables.GH_USERNAME }}
-      - name: run gh email
-        run: git config user.email ${{ variables.GH_EMAIL }}
-
       # Build the React app
       - name: Build React app
         run: npm run build
@@ -48,3 +42,9 @@ jobs:
         env:
           CI: false
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      # user name and email
+      - name: run gh user
+        run: git config user.name ${{ env.GH_USERNAME }}
+      - name: run gh email
+        run: git config user.email ${{ env.GH_EMAIL }}
