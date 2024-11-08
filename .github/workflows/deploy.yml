@@ -40,14 +40,13 @@ jobs:
       - name: Build React app
         run: |
           npm run build
-
-      # Deploy to GitHub Pages
+      - name: Set Git configuration
+        run: |
+          git config --global user.name "hasheightseven"
+          git config --global user.email "hasheightseven@gmail.com"  # Replace with your email
+      # Ensure these Git configurations are correct for automated commits
       - name: Deploy to GitHub Pages
         run: |
-          git config user.name 'hasheightseven'
-          git config user.email 'hasheightseven@gmail.com'
-          git remote set-url origin https://hasheightseven:${GH_TOKEN}@github.com/hasheightseven/hasheightseven.github.io.git
-          npm run deploy
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          # hope this works
+          gh-pages -d build -r https://$GH_TOKEN@github.com/hasheightseven/hasheightseven.github.io.git
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Ensure this is passed from your secrets
