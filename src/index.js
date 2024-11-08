@@ -11,5 +11,5 @@ document.head.appendChild(favicon);
 import reactnbabel from './hesimports.js';
 reactnbabel();
 // import main content
-import main from './main.js';
+import main from './main.jsx';
 document.body.appendChild(main);
