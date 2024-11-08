@@ -1,7 +1,6 @@
 {
   "name": "hasheightseven.github.io",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://hasheightseven.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
