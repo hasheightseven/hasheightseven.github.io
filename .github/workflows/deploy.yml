@@ -28,12 +28,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      # user name and email
-      - name: run gh user
-        run: git config --global user.name "hasheightseven"
-      - name: run gh email
-        run: git config --global user.email "hasheightseven@gmail.com" 
-
       # Install dependencies
       - name: Install dependencies
         run: npm install
@@ -44,7 +38,10 @@ jobs:
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        run: |
+          git config --global user.name 'hasheightseven'
+          git config --global user.email 'hasheightseven@gmail.com'
+          npm run deploy
         env:
           CI: false
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
