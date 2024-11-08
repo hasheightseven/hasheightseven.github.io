@@ -44,9 +44,6 @@ jobs:
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         run: |
-          git config user.name 'hasheightseven'
-          git config user.email 'hasheightseven@gmail.com'
-          git remote set-url origin https://hasheightseven:${GH_TOKEN}@github.com/hasheightseven/hasheightseven.github.io.git
           npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
