@@ -28,6 +28,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
+      # user name and email
+      - name: run gh user
+        run: git config user.name ${{ env.GH_USERNAME }}
+      - name: run gh email
+        run: git config user.email ${{ env.GH_EMAIL }}
+
       # Install dependencies
       - name: Install dependencies
         run: npm install
@@ -42,9 +48,3 @@ jobs:
         env:
           CI: false
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
-      # user name and email
-      - name: run gh user
-        run: git config user.name ${{ env.GH_USERNAME }}
-      - name: run gh email
-        run: git config user.email ${{ env.GH_EMAIL }}
