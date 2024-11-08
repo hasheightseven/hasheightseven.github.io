@@ -8,8 +8,8 @@ document.head.appendChild(defaultstyles);
 import favicon from './favicon.js';
 document.head.appendChild(favicon);
 // import react cdns
-import reactcdn from './hesimports.js';
-reactcdn();
+import reactnbabel from './hesimports.js';
+reactnbabel();
 // import main content
 import main from './main.js';
 document.body.appendChild(main);
