@@ -47,3 +47,4 @@ jobs:
           npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          # hope this works
