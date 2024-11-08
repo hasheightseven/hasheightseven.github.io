@@ -46,5 +46,4 @@ jobs:
           git remote set-url origin https://hasheightseven:${{ secrets.GH_TOKEN }}@github.com/hasheightseven/hsaheightseven.github.io.git
           npm run deploy
         env:
-          CI: false
-          GH_TOKEN: ${{ GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
