@@ -36,7 +36,10 @@ jobs:
 
       # Build the React app
       - name: Build React app
-        run: npm run build
+        run: |
+          npm install -g serve
+          serve -s build
+          npm run build
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
