@@ -11,5 +11,5 @@ document.head.appendChild(defaultstyles);
 import favicon from './favicon.js';
 document.head.appendChild(favicon);
 // import main content
-import main from './main.jsx';
+import main from './main.js';
 document.body.appendChild(main);
