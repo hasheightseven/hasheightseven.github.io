@@ -43,7 +43,7 @@ jobs:
         run: |
           git config --global user.name 'hasheightseven'
           git config --global user.email 'hasheightseven@gmail.com'
-          git remote set-url origin https://hasheightseven:${{ secrets.GH_TOKEN }}@github.com/hasheightseven/hasheightseven.github.io.git
+          git remote set-url origin https://hasheightseven:${GH_TOKEN}@github.com/hasheightseven/hasheightseven.github.io.git
           npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
