@@ -44,9 +44,12 @@ jobs:
         run: |
           git config --global user.name "hasheightseven"
           git config --global user.email "hasheightseven@gmail.com"  # Replace with your email
+      - name: Debug GH_TOKEN
+        run: |
+          echo "GH_TOKEN is set"
       # Ensure these Git configurations are correct for automated commits
       - name: Deploy to GitHub Pages
         run: |
-          npx gh-pages -d build -r https://$GH_TOKEN@github.com/hasheightseven/hasheightseven.github.io.git
+          npx gh-pages -d build -r https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/hasheightseven/hasheightseven.github.io.git
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Ensure this is passed from your secrets
