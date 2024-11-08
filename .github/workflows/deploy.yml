@@ -1,33 +1,44 @@
-name: Deploy React App to GitHub Pages
+name: Deploy React app to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # Or use 'master' depending on your default branch
+      - main  # Deploy when changes are pushed to the 'main' branch
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
+      # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  # Specify the Node.js version you want to use
+          node-version: '20'  # Match your node version
 
+      # Cache node_modules to speed up build
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      # Install dependencies
       - name: Install dependencies
         run: npm install
-      
-      - name: Install gh-pages
-        run: npm install gh-pages
 
-      - name: Build the app
+      # Build the React app
+      - name: Build React app
         run: npm run build
 
+      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         run: npm run deploy
         env:
-          CI: false  # This disables the CI environment variable which might interfere with the build
+          CI: false
+          #GH_TOKEN: ${{ secrets.GH_TOKEN }}
