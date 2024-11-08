@@ -47,6 +47,6 @@ jobs:
       # Ensure these Git configurations are correct for automated commits
       - name: Deploy to GitHub Pages
         run: |
-          gh-pages -d build -r https://$GH_TOKEN@github.com/hasheightseven/hasheightseven.github.io.git
+          npx gh-pages -d build -r https://$GH_TOKEN@github.com/hasheightseven/hasheightseven.github.io.git
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}  # Ensure this is passed from your secrets
