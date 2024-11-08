@@ -11,17 +11,17 @@ jobs:
     steps:
       # Checkout the repository
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Set up Node.js
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '20'  # Match your node version
 
       # Cache node_modules to speed up build
       - name: Cache node modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: node_modules
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -30,9 +30,9 @@ jobs:
 
       # user name and email
       - name: run gh user
-        run: git config user.name ${{ env.GH_USERNAME }}
+        run: git config user.name ${{ github-pages.GH_USERNAME }}
       - name: run gh email
-        run: git config user.email ${{ env.GH_EMAIL }}
+        run: git config user.email ${{ github-pages.GH_EMAIL }}
 
       # Install dependencies
       - name: Install dependencies
