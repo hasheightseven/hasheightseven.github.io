@@ -30,7 +30,9 @@ jobs:
 
       # Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install -g npm@10.9.0
+          npm install
 
       # Build the React app
       - name: Build React app
@@ -41,6 +43,7 @@ jobs:
         run: |
           git config --global user.name 'hasheightseven'
           git config --global user.email 'hasheightseven@gmail.com'
+          git remote set-url origin https://hasheightseven:${{ secrets.GH_TOKEN }}@github.com/hasheightseven/hsaheightseven.github.io.git
           npm run deploy
         env:
           CI: false
