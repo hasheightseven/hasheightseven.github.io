@@ -12,11 +12,11 @@ main.setAttribute('id', 'hesmain')
 const root = ReactDOM.createRoot(document.getElementById('hesmain'));
 
 // Render your App component inside the root element
-root.render(
+root.render(`
     <React.StrictMode>
     <App />
   </React.StrictMode>
-);
+`);
 
 
 export default main;
