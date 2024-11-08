@@ -30,9 +30,9 @@ jobs:
 
       # user name and email
       - name: run gh user
-        run: git config --global user.name ${{ env.GH_USERNAME }}
+        run: git config --global user.name "hasheightseven"
       - name: run gh email
-        run: git config --global user.email ${{ env.GH_EMAIL }}
+        run: git config --global user.email "hasheightseven@gmail.com" 
 
       # Install dependencies
       - name: Install dependencies
