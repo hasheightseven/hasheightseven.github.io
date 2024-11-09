@@ -51,7 +51,5 @@ jobs:
       - name: Deploy to GitHub Pages
         run: |
           npx gh-pages -d build -r https://x-access-token:${{ secrets.react_token }}@github.com/hasheightseven/hasheightseven.github.io.git
-        publish_dir: ./build  # Directory to deploy
-        branch: gh-pages   
         env:
           GH_TOKEN: ${{ secrets.react_token}}  # Ensure this is passed from your secrets
