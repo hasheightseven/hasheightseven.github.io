@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+  <!-- Background -->
+  <rect width="200" height="100" fill="transparent"/>
+  
+  <!-- Hashtag symbol -->
+  <text x="10" y="40" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#333">#</text>
+  
+  <!-- "87" with stylized font -->
+  <text x="45" y="45" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="#042995">87</text>
+  
+  <!-- "EoghtSeven" text below the number -->
+  <text x="50" y="80" font-family="Arial, sans-serif" font-size="16" fill="#333">EightSeven</text>
+  
+  <!-- Optional decorative elements -->
+  <circle cx="140" cy="40" r="10" fill="#042995" opacity="0.6"/>
+  <circle cx="160" cy="50" r="10" fill="#042995" opacity="0.4"/>
+</svg>
