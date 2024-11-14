@@ -1,6 +1,6 @@
-import './popeye.svg' as popeyesvg;
+import './popeye.svg' as popeyesvg
 
-console.log('ello from popeye.js')
+console.log('ello from popeye.js');
 
 function Popeye() {
     return (
