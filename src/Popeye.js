@@ -2,7 +2,7 @@ import './popeye.svg' as popeyesvg;
 
 console.log('ello from popeye.js')
 
-functuon Popeye() {
+function Popeye() {
     return (
         <div class="Popeye-div" style=`background=${popeyesvg};`></div>
     );
