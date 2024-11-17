@@ -7,3 +7,5 @@ function Popeye() {
         <div class="Popeye-div" style="background= #112692;"></div>
     `);
 }
+
+export default Popeye;
