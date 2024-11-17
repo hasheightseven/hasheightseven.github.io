@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Popeye from './Popeye.js';
+import Popeye from './Popeye.jsx';
 
 function App() {
   return (
