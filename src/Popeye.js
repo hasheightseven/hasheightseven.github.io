@@ -5,3 +5,4 @@ function Popeye() {
         <div class="Popeye-div" style="background: url('./popeye.svg');"></div>
     );
 }
+export default Popeye;
