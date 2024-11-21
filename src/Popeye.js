@@ -1,8 +1,12 @@
 console.log('ello from popeye.js');
 
+import popeye from "./popeye.svg";
+
 function Popeye() {
     return (
-        <div class="Popeye-div" style= {{ background: "url('./popeye.svg')" }}></div>
+        <div class="Popeye-div">
+            <img src={popeye} alt="popeye"/>
+        </div>
     );
 }
 export default Popeye;
