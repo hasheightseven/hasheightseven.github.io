@@ -1,5 +1,3 @@
-console.log('ello from popeye.js');
-
 import popeye from "./popeye.svg";
 
 function Popeye() {
