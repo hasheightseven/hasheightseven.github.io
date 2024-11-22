@@ -8,7 +8,6 @@ function App() {
         <header className="App-header">
           <Popeye />
         </header>
-        <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
 }
