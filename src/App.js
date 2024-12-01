@@ -5,13 +5,12 @@ import HesHomeHeader from './HesHomeHeader.js';
 function App() {
   return (
     <div className="App">
-        /* <header className="App-header">
-          <Popeye />
-        </header>
-        */
         <HesHomeHeader />
     </div>
   );
 }
-
+/* <header className="App-header">
+          <Popeye />
+        </header>
+        */
 export default App;
