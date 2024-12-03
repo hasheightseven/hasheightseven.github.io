@@ -4,7 +4,7 @@ function HesHomeHeader() {
         <img src='#' alt='#EightSeven' />
         <div id='hes-menu'>
             <ul id='hes-menu-items'>
-                <li>home</li>
+                <li><a href="/">home</a></li>
             </ul>
         </div>
         </>
