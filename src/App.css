@@ -15,7 +15,7 @@ html, body {
   }
 }
 
-.App-header {
+.App-header, .HesHomeHeader{
   background-color: #112692;
   min-height: 100vh;
   display: flex;
