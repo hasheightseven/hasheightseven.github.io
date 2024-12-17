@@ -2,7 +2,7 @@
   text-align: center;
 }
 html, body {
-  background-color: #112692;
+  background-color: #11269208;
 }
 .App-logo {
   height: 40vmin;
@@ -16,7 +16,7 @@ html, body {
 }
 
 .App-header, .HesHomeHeader{
-  background-color: #112692;
+  background-color: #11269208;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
