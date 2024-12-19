@@ -1,9 +1,10 @@
 import './App.css';
+import HesHomeHeader from './HesHomeHeader.js';
 
 function App() {
   return (
     <div className="App">
-      <input className="username-neon-monkey" />
+      <HesHomeHeader />
     </div>
   );
 }
