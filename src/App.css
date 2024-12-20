@@ -21,6 +21,7 @@
 
 .App-header img {
   align-self: flex-start;
+  justify-self: flex-start;
 }
 
 .App-link {
