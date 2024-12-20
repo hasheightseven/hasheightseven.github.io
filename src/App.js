@@ -24,8 +24,8 @@ function App() {
             <img src='./logo.svg' alt='logo-nm' />
             <img src='./logo.svg' alt='logo-nm' />
             <img src='./logo.svg' alt='logo-nm' />
-          // <h2 className='greeting'>any quote would do but i'm not interested</h2>
         </div>
+          <h2 className='greeting'>any quote would do but i'm not interested</h2>
     </div>
   );
 }
