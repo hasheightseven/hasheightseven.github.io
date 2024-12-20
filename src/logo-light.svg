@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px">
-  <path d='M25 8 L50 25 L75 50 Z' fill='#becafe'></path>
+  <path d='M8 8 L8 92 L26 26 L92 92 L92 8 Z' fill='#becafe'></path>
   <path d='M50 8 L100 25 L100 50 Z' fill='#becafe'></path>
   <path d='M75 8 L150 25 L125 50 Z' fill='#becafe'></path>
   <path d='M100 8 L200 25 L150 50 Z' fill='#becafe'></path>
