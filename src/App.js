@@ -4,8 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <div className='AppHeader'>
-    <img src='./logo-dark.svg' alt='logo-nm' />
+        <div className='AppHeader' onClick=()=>{ window.location.href='/'; }>
+            <img src='./logo-dark.svg' alt='logo-nm' />
             <h1 className="HesHomeHeaderHeading">neon monkey</h1>
         </div>
         <div className='popeyethesailor'>
