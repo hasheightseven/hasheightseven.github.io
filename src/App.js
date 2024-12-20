@@ -4,9 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        <nav className='AppHeader'>
+        <div className='AppHeader'>
+    <img src='./logo-light.svg' alt='logo-nm' />
             <h1 className="HesHomeHeaderHeading">neon monkey</h1>
-        </nav>
+        </div>
         <div className='popeyethesailor'>
           <h2 className='greeting'>any quote would do but i'm not interested</h2>
         </div>
