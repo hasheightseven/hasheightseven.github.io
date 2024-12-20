@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="300px">
   <path d='M49 92 L49 8 L26 26 L49 92 L8 26 L8 92 L17 72 Z
-    M51 92 L51 50 L73 8 L73 50 L87 8 L92 50 L92 92 L73 50 L51 92Z' stroke='#00ff0087'></path>
+    M51 92 L51 50 L73 8 L73 50 L87 8 L92 50 L92 92 L73 50 L51 92 Z' stroke='#00ff0087' stroke-width='2.6px'></path>
   <!-- <path d='M50 8 L100 25 L100 50 Z' fill='#becafe'></path>
   <path d='M75 8 L150 25 L125 50 Z' fill='#becafe'></path>
   <path d='M100 8 L200 25 L150 50 Z' fill='#becafe'></path>
