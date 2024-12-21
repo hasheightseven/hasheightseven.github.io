@@ -25,7 +25,7 @@ function App() {
             <img src='./logo.svg' alt='logo-nm' />
             <img src='./logo.svg' alt='logo-nm' />
         </div>
-          <h2 className='greeting'>any quote would do but i'm not interested</h2>
+          <h2 className='greeting'>wanna join the crowd?<br/>Let's join popeye's <a className='.App-Link'>cafe</a></h2>
     </div>
   );
 }
