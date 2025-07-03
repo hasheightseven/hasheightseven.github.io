@@ -1,3 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <polygon points="8,92 8,8 50,75 50,8 60,60 92,8 92,92" stroke="#000a" fill="transparent" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill='#fff8'>
+  <polygon points="4,75 16,4 40,50 25,4 50,25 40,96 16,50 25,96 4,75" fill=''/>
+  <polygon points='50,25 75,60 96,4 96,96 86,49 75,96 60,54 40,96' />
+  <path d='M16 4L40 96L50 25L75 96L96 4Z' stroke='red' stroke-width='0.5px' fill='transparent' />
+<!--   <polygon points="8,84 16,8 42,60 49,8 50,84 51,8 71,60 84,8 92,84 75,100 84,50 66,84 60,50 50,84 40,92 25,50 25,92 8,84" /> -->
+<!--   84,40 71,92 56,40 50,92 16,40 8,92 -->
+<!--
+  <polygon points="16,50 40,100 50,92 26,120" fill="#fff"/>
+  <polygon points="50,92 60,50 66,100 84,50 75,120" fill="#fff"/> -->
+    <style>
+  svg {
+    background-color: red;
+  }
+</style>
 </svg>
