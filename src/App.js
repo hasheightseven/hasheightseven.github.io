@@ -8,24 +8,6 @@ function App() {
             <img src='./logo.svg' alt='logo-nm' />
             <h1 className="HesHomeHeaderHeading">neon monkey</h1>
         </div>
-        <div className='popeyethesailor'>
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-            <img src='./logo.svg' alt='logo-nm' />
-        </div>
-          <h2 className='greeting'>wanna join the crowd?</h2>
     </div>
   );
 }
